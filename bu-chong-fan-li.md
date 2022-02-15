@@ -512,19 +512,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 
-### 11 一列四個變成一列兩個
-
-背景圖，一列四個變成一列兩個。
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/OKVQrm" %}
-
-
-
-
-
-### 12 Youtube iframe 影片 RWD
+### 11 Youtube iframe 影片 RWD
 
 提供以下：`560: 315 = 16:9`
 
