@@ -339,6 +339,15 @@ $("button.btn_switch").on("click", function(){
 </div>
 ```
 
+直接參考以下的「參考作法」結果，然後直接實做。提示重點 CSS：
+
+```css
+div.list_container ul.ul_list{
+  white-space: nowrap;
+  overflow-x: auto;
+}
+```
+
 
 
 參考作法：
