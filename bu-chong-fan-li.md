@@ -233,7 +233,7 @@ $("button.btn_switch").on("click", function(){
 
 指定檔名：`full_scene.html`
 
-製作三個區塊，寬高都佔滿版，留意高度。分別任意指定不同的背景色以便觀察。
+製作三個區塊，寬高都佔滿版，留意高度( 應使用 `min-height: 100vh` )。分別任意指定不同的背景色以便觀察。
 
 給定 html 如下：
 
