@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function(){
 </nav>
 ```
 
-提供 jQuery 寫法：
+提供 jQuery 的展開縮合的做法(較簡單)：
 
 ```javascript
 $(function(){
@@ -153,9 +153,13 @@ $(function(){
 
 
 
-參考作法：
+參考作法(使用 jQuery 做展開縮合)：
 
 {% embed url="https://codepen.io/carlos411/pen/XvGKQz" %}
+
+以下提供 JavaScript 的展開縮合做法：
+
+{% embed url="https://codepen.io/carlos411/pen/VwrMMjO" %}
 
 
 
