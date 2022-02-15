@@ -471,20 +471,33 @@ div.block{
 
 提供 JS：
 
-```markup
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-  $(function(){
-    
-    $("button.btn_toggle").on("click", function(){
-      $("div.left_block").toggleClass("-on");
-    });
-    
+```javascript
+// jQuery 版本
+$(function(){
+  
+  $("button.btn_toggle").on("click", function(){
+    $("div.left_block").toggleClass("-on");
   });
-</script>
+  
+});
+
+
+
+// JavaScript 版本
+/*
+document.addEventListener("DOMContentLoaded", function(){
+  
+  var btn_toggle = document.getElementsByClassName("btn_toggle")[0];
+  btn_toggle.addEventListener("click", function(){
+    let left_block = document.getElementsByClassName("left_block")[0];
+    left_block.classList.toggle("-on");
+  });
+  
+});
+*/
 ```
 
-方向(練習寫 Flexbox 模式，先將框線結構寫出來)：
+提示方向(練習寫 Flexbox 模式，先將框線結構寫出來)：
 
 * `div.left_block.-on` 會設定到 `flex-basis: 200px;`。
 * `div.right_block` 會設定到 `flex-grow: 1;`。
