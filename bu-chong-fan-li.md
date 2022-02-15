@@ -81,16 +81,28 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
 
-切換 class (使用 jQuery)：
+切換 class (以下有 jQuery 及 JS 版本)：
 
 ```javascript
+/*
+// jQuery 版本
 $(function(){
   
-  // hamburger icon 的切換
   $("button.hamburger").on("click", function(){
     $(this).toggleClass("is-active");
   });
 
+});
+*/
+
+// JavaScript 版本
+document.addEventListener("DOMContentLoaded", function(){
+  
+  var btn_hamburger = document.getElementsByClassName("hamburger")[0];
+  btn_hamburger.addEventListener("click", function(){
+    this.classList.toggle("is-active");
+  });
+  
 });
 ```
 
