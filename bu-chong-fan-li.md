@@ -414,7 +414,7 @@ div.block{
   padding: 2px 4px;   /* 改這個 */
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.98px){
   div.block{
     font-size: 2rem;
   }
