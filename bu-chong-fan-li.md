@@ -205,7 +205,7 @@ $("button.btn_switch").on("click", function(){
 
 指定檔案：`full_width_image.html`
 
-區塊滿版，高度250px，裡面一張圖片，如下結構：
+`div.img_block` 區塊佔滿版，設定高度250px，裡面一張圖片，提供 HTML 如下：
 
 ```markup
 <div class="img_block">
@@ -213,7 +213,9 @@ $("button.btn_switch").on("click", function(){
 </div>
 ```
 
-並設定在 575px 以下行動版時，佔滿的區域比例為寬高1:1(即正方形)。
+* 圖片在 `div.img_block` 區塊裡面，要佔滿 `div.img_block` 區塊，且圖片要水平方向、垂直方向都要置中。
+* 設定螢幕寬度在 575.98px 以下時，`div.img_block` 區塊一樣佔螢幕的滿版，且需是正方形。
+* 提示：使用 `padding-top` 來創造正方形。
 
 結果示意：
 
