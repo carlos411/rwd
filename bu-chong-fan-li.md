@@ -137,15 +137,13 @@ document.addEventListener("DOMContentLoaded", function(){
 提供 jQuery 的展開縮合的做法(較簡單)：
 
 ```javascript
-$(function(){
-  
-  // 點擊按鈕，選單縮放
-  $("button.btn_switch").on("click", function(){
-    $("nav.main_nav").slideToggle();
-  });
-  
+// 點擊按鈕，選單縮放
+$("button.btn_switch").on("click", function(){
+  $("nav.main_nav").slideToggle();
 });
 ```
+
+
 
 結果示意：
 
