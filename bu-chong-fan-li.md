@@ -410,8 +410,8 @@ div.block{
 
   font-size: 1rem;
 
-  border-radius: 8px;
-  padding: 2px 4px;
+  border-radius: 8px; /* 改這個 */
+  padding: 2px 4px;   /* 改這個 */
 }
 
 @media screen and (max-width: 767px){
@@ -421,9 +421,9 @@ div.block{
 }
 ```
 
-上述的介面，div.block 裡的文字大小在螢幕寬度 767px 以下時，從 1rem 變成 2rem，也就是變成了 2 倍。但「圓角」及「內距 padding」部份，並沒有變成兩倍。
+上述的介面，div.block 裡的文字大小在螢幕寬度 767.98px 以下時，`font-size` 從 1rem 變成 2rem，也就是文字大小變成了 2 倍大。但「圓角(`border-radiu`s)」及「內距(`padding`)」部份，並沒有變成兩倍。
 
-請調整成「圓角」及「內距 padding」，也要跟著文字大小改變。(提示：使用 em 單位。)
+請調整成「圓角(`border-radius`)」及「內距(`padding`)」，也要跟著文字大小改變。(提示：使用 em 單位。)
 
 * 文字大小變兩倍： 圓角 8px → 16px。
 * 文字大小變兩倍：內距 2px 4px → 4px 8px。
