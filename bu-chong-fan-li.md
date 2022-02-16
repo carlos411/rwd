@@ -571,6 +571,8 @@ header 區域的高：60px。
 
 參考作法：
 
+[https://alldata.sgp1.digitaloceanspaces.com/sample/youtube\_layout\_practice.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/youtube\_layout\_practice.zip)
+
 
 
 ## 參考
