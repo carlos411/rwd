@@ -26,11 +26,7 @@
 
 ## 實際用手機瀏覽本機端網站
 
-
-
-{% content-ref url="../7.-qi-ta/shi-fan-ngrok.md" %}
-[shi-fan-ngrok.md](../7.-qi-ta/shi-fan-ngrok.md)
-{% endcontent-ref %}
+請瀏覽「**7.1 手機連本機端網站**」。
 
 
 
