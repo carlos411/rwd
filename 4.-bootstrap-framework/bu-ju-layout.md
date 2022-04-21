@@ -44,10 +44,6 @@ div 元素加上 container-fluid 樣式：
 
 這時的 `div.container-fluid`，寬度就是 100%。
 
-官方也提供了這張表：
-
-![](../.gitbook/assets/bootstrap5\_container.png)
-
 
 
 ## 範例 1：指定 sm 範圍以上三欄均分
