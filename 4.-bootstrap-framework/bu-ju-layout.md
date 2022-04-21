@@ -214,6 +214,16 @@ sm 範圍以上三欄均分
 
 
 
+請使用格線系統，完成以下佈局：
+
+![](../.gitbook/assets/grid\_prac.png)
+
+可直接開啟這個 CodePen， fork 一份，就可開始寫：[https://codepen.io/carlos411/pen/vYpPRwe](https://codepen.io/carlos411/pen/vYpPRwe?editors=1100)
+
+
+
+
+
 完成示意，參考作法：
 
 {% embed url="https://codepen.io/carlos411/pen/gOOwzKp" %}
