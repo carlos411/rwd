@@ -47,13 +47,13 @@ Windows：
 Mac 欲執行的指令(`$` 不需要打，它是表示輸入指令的意思)：
 
 ```
-$ ./ngrok authtoken 這裡是自己的代碼
+$ ./ngrok config add-authtoken 這裡是自己的代碼
 ```
 
 Windows 欲執行的指令(`$` 不需要打，它是表示輸入指令的意思)：
 
 ```
-$ ngrok authtoken 這裡是自己的代碼
+$ ngrok config add-authtoken 這裡是自己的代碼
 ```
 
 
