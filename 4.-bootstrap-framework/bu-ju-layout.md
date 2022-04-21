@@ -64,7 +64,7 @@ sm 範圍以上三欄均分
 
 {% embed url="https://codepen.io/carlos411/pen/LYVpQZZ" %}
 
-試著用 `order-last`、`order-first`，來分別表示最後、第一個。
+
 
 ## 範例 3：不論任何範圍，各欄寬度自動均分
 
