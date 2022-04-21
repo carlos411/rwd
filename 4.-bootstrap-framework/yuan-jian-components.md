@@ -44,7 +44,7 @@ nav.my_breadcrumb ol.breadcrumb .breadcrumb-item+.breadcrumb-item::before{
 * 中間區域是一個 container。
 * 最上方導覽列佔滿版。
 * md 範圍以上(768px 以上)：左邊佔9欄，右邊佔3欄
-* sm 範圍以下(767px以下)變成是直排：都佔12欄
+* 小於 768px 時，變成是直排：都佔12欄
 * 有用到的元件：Navbar、Card、Alerts
 
 如下示意：
