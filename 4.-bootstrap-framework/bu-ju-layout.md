@@ -66,6 +66,12 @@ sm 範圍以上三欄均分
 
 
 
+練習：設定螢幕寬度在**小於等於 575.98px** 時，出現的順序由上至下為「**第三欄、第二欄、第一欄**」：
+
+{% embed url="https://codepen.io/carlos411/pen/xxpBWOK" %}
+
+
+
 ## 範例 3：不論任何範圍，各欄寬度自動均分
 
 {% embed url="https://codepen.io/carlos411/pen/wVKJMR" %}
