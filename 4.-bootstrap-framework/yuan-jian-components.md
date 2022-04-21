@@ -1,34 +1,6 @@
 # 4.5 元件 Components
 
-## 元件
-
-這裡挑出 Popover 及 Scrollspy：
-
-### Popovers
-
-Bootstrap 官方提供的觸發 Popover 套件的 JS：
-
-```javascript
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
-var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-  return new bootstrap.Popover(popoverTriggerEl);
-});
-```
-
-{% embed url="https://codepen.io/carlos411/pen/GRJZapo" %}
-
-
-
-### Scrollspy
-
-* 在 **`div.scrollspy-example`** 加上 `position: relative;`
-* 在 **`div.scrollspy-example`** 加上 `height`、`overflow-y: scroll;`
-
-{% embed url="https://codepen.io/carlos411/pen/PoqNvoN" %}
-
-
-
-## 改寫元件基本樣式
+## 改寫元件基本樣式的規則
 
 改寫樣式的基本原則：不要去改變原來 bootstrap 的原始碼，而是透過覆寫的方式，也就是加上自己的樣式(class)，以麵包屑介面為例，以下的 `class="my_breadcrumb"` 是自己加上的：
 
