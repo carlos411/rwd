@@ -13,15 +13,7 @@
 
 
 
-### 相依性
-
-4.x 版本：需要再載入 [jQuery](https://jquery.com) 以及 [Popper](https://popper.js.org) 才能使用。
-
-5.x 版本：已經不再相依於 jQuery。Popper 的部份仍然需要，但這已包含在 `bootstrap.bundle.min.js` 原始碼中。
-
-
-
-以 5.x 版本為例，最後全部載入的原始碼如下：
+所以網頁當中，若要使用 Bootstrap，就需要載入的原始碼如下：
 
 ```markup
 <!DOCTYPE html>
