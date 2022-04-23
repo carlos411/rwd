@@ -59,13 +59,11 @@ hamburger_icon.addEventListener("click", function(){
 
 ### 2 套用 hamburger icon 的外掛
 
-指定檔名：`hamburger_icon_with_plugin.html`
-
-[官網](https://jonsuh.com/hamburgers/)
+[套件官網](https://jonsuh.com/hamburgers/)。
 
 [官方所提供的 css 在這](https://raw.githubusercontent.com/jonsuh/hamburgers/master/dist/hamburgers.css)。
 
-自行挑選一個效果，學會套用。只需要看 Usage 的 1 \~ 4 點即可。
+自行挑選一個效果，學會套用。只需要看官網裡的 Usage 1 \~ 4 點即可。
 
 
 
@@ -74,23 +72,15 @@ hamburger_icon.addEventListener("click", function(){
 ```javascript
 /*
 // jQuery 版本
-$(function(){
-  
-  $("button.hamburger").on("click", function(){
-    $(this).toggleClass("is-active");
-  });
-
+$("button.hamburger").on("click", function(){
+  $(this).toggleClass("is-active");
 });
 */
 
 // JavaScript 版本
-document.addEventListener("DOMContentLoaded", function(){
-  
-  var btn_hamburger = document.getElementsByClassName("hamburger")[0];
-  btn_hamburger.addEventListener("click", function(){
-    this.classList.toggle("is-active");
-  });
-  
+var btn_hamburger = document.getElementsByClassName("hamburger")[0];
+btn_hamburger.addEventListener("click", function(){
+  this.classList.toggle("is-active");
 });
 ```
 
