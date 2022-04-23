@@ -482,13 +482,13 @@ btn_toggle.addEventListener("click", function(){
 
 ### 11 Youtube iframe 影片 RWD
 
-提供以下：`560: 315 = 16:9`
+提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
 ```markup
 <iframe height="315" width="560" class="test" src="https://www.youtube.com/embed/-RAdHJ-aquE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-結果示意：
+執行完的結果示意：
 
 {% embed url="https://youtu.be/uEzbFE37CI8" %}
 
