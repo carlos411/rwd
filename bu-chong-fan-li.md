@@ -1,6 +1,6 @@
-# 6. 大量練習
+# 6 大量練習
 
-以下有些會用到一點點 jQuery，直接提供 jQuery 載入的 CDN：(請放在 body 結束標籤之前)
+以下若有用到 jQuery，可直接提供 jQuery 載入的 CDN：(請放在 body 結束標籤之前)
 
 ```markup
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -10,54 +10,42 @@
 
 ### 1 介面 hamburger icon
 
-指定檔名：`hamburger_icon.html`
-
-用 button 標籤做一個 hamburger icon：
-
-切換 class (使用 jQuery)：
-
-```javascript
-// jQuery 版本：DOM 載入完成之後執行
-$(function(){
-
-  // 按鈕狀態的切換
-  $("button.hamburger_icon").on("click", function(){
-    $(this).toggleClass("-on");
-  });
-  
-});
-```
-
-切換 class (使用 JavaScript)：
-
-```javascript
-// JavaScript 版本：DOM 載入完成之後執行
-document.addEventListener('DOMContentLoaded', function(){
-  
-  // 按鈕狀態的切換
-  var hamburger_icon = document.getElementsByClassName("hamburger_icon")[0];
-  hamburger_icon.addEventListener("click", function(){
-    hamburger_icon.classList.toggle("-on");
-  });
-  
-});
-```
-
-結果示意：
-
-{% embed url="https://youtu.be/6rJP4TZF4SU" %}
-
-
+用 button 標籤做一個 hamburger icon。
 
 提供 html：
 
-```markup
+```html
 <button type="button" class="hamburger_icon">
   <span class="-hr -top"></span>
   <span class="-hr -middle"></span>
   <span class="-hr -bottom"></span>
 </button>
 ```
+
+
+
+切換 class (使用 jQuery)：
+
+```javascript
+// 按鈕狀態的切換
+$("button.hamburger_icon").on("click", function(){
+  $(this).toggleClass("-on");
+});
+```
+
+切換 class (使用 JavaScript)：
+
+```javascript
+// 按鈕狀態的切換
+var hamburger_icon = document.getElementsByClassName("hamburger_icon")[0];
+hamburger_icon.addEventListener("click", function(){
+  hamburger_icon.classList.toggle("-on");
+});
+```
+
+結果示意：
+
+{% embed url="https://youtu.be/6rJP4TZF4SU" %}
 
 
 
