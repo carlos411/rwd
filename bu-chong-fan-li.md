@@ -451,28 +451,18 @@ div.block{
 
 ```javascript
 // jQuery 版本
-$(function(){
-  
-  $("button.btn_toggle").on("click", function(){
-    $("div.left_block").toggleClass("-on");
-  });
-  
-});
-
-
-
-// JavaScript 版本
 /*
-document.addEventListener("DOMContentLoaded", function(){
-  
-  var btn_toggle = document.getElementsByClassName("btn_toggle")[0];
-  btn_toggle.addEventListener("click", function(){
-    let left_block = document.getElementsByClassName("left_block")[0];
-    left_block.classList.toggle("-on");
-  });
-  
+$("button.btn_toggle").on("click", function(){
+  $("div.left_block").toggleClass("-on");
 });
 */
+
+// JavaScript 版本
+var btn_toggle = document.getElementsByClassName("btn_toggle")[0];
+btn_toggle.addEventListener("click", function(){
+  let left_block = document.getElementsByClassName("left_block")[0];
+  left_block.classList.toggle("-on");
+});
 ```
 
 提示方向(練習寫 Flexbox 模式，先將框線結構寫出來)：
