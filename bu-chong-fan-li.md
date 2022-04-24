@@ -139,7 +139,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 4 三欄式 RWD - 使用 Flexbox
+### 4 使用 Flexbox 做版位佈局
 
 提供 HTML 結果如下：
 
