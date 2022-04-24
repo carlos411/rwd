@@ -141,7 +141,7 @@ $("button.btn_switch").on("click", function(){
 
 ### 4 使用 Flexbox 做版位佈局
 
-提供 HTML 結果如下：
+提供 HTML 如下：
 
 ```markup
 <div class="all_container">
@@ -158,7 +158,7 @@ $("button.btn_switch").on("click", function(){
 </div>
 ```
 
-請直接看下方 CodePen 的結果，實作看看。
+請直接看下方 CodePen 的畫面結果，實作看看。
 
 
 
@@ -170,23 +170,18 @@ $("button.btn_switch").on("click", function(){
 
 ### 5 內容圖片佔滿版
 
-指定檔案：`full_width_image.html`
-
-`div.img_block` 區塊佔滿版，設定高度250px，裡面一張圖片，提供 HTML 如下：
+提供 HTML 如下：
 
 ```markup
 <div class="img_block">
-  <img src="https://picsum.photos/id/866/800/400">
+  <img src="https://picsum.photos/id/867/2000/300">
 </div>
 ```
 
-* 圖片在 `div.img_block` 區塊裡面，要佔滿 `div.img_block` 區塊，且圖片要水平方向、垂直方向都要置中。
-* 設定螢幕寬度在 575.98px 以下時，`div.img_block` 區塊一樣佔螢幕的滿版，且需是正方形。
-* 提示：使用 `padding-top` 來創造正方形。
+* 當螢幕寬度小於等於 `767.98px` 以下時，`圖片`要在 `div.img_block` 區塊水平方向、垂直方向皆置中；且 `div.img_block` 需佔滿螢幕，且寬高比需是 `2:1`。
+* 請參考下方 CodePen 的畫面結果，實作看看。
 
-結果示意：
 
-{% embed url="https://youtu.be/jQq3ocGodaw" %}
 
 
 
