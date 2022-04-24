@@ -141,19 +141,6 @@ $("button.btn_switch").on("click", function(){
 
 ### 4 三欄式 RWD - 使用 Flexbox
 
-指定檔名：`rwd_with_flexbox.html`
-
-說明：
-
-* 768px 以上為桌機版；767.98px 以下為行動版。
-* 桌機版：左欄及右欄寬度各 200px，剩餘空間寬度都給中間欄。
-* 行動版：三欄變成垂直方向排列，且佔父元素的滿版。
-* 限定使用 Flexbox 來製作三欄式 RWD 排版。
-
-結果示意：
-
-{% embed url="https://youtu.be/ABX7rKgLeXo" %}
-
 提供 HTML 結果如下：
 
 ```markup
@@ -170,6 +157,8 @@ $("button.btn_switch").on("click", function(){
   </div>
 </div>
 ```
+
+請直接看下方 CodePen 的結果，實作看看。
 
 
 
