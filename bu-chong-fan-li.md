@@ -191,44 +191,9 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 6 區塊場景的滿版
-
-指定檔名：`full_scene.html`
-
-製作三個區塊，寬高都佔滿版，留意高度( 建議使用 `min-height: 100vh;` )。\
-分別任意指定不同的背景色以便觀察。
-
-給定 html 如下：
-
-```markup
-<section class="scene scene_1">
-  scene1
-</section>
-
-<section class="scene scene_2">
-  scene2
-</section>
-
-<section class="scene scene_3">
-  scene3
-</section>
-```
-
-結果示意：
-
-{% embed url="https://youtu.be/Fwd58Kpvrdc" %}
 
 
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/XWWLXWL" %}
-
-
-
-
-
-### 7 有 10 個項目的水平方向排版
+### 6 有 10 個項目的水平方向排版
 
 指定檔名：`ten_items_scroll.html`
 
@@ -320,7 +285,7 @@ div.list_container ul.ul_list{
 
 
 
-### 8 內容固定在螢幕上，但在其它內容的後方
+### 7 內容固定在螢幕上，但在其它內容的後方
 
 指定檔名：`content_fixed.html`
 
@@ -350,7 +315,7 @@ div.list_container ul.ul_list{
 
 
 
-### 9 圓角與內距，相對於文字大小
+### 8 圓角與內距，相對於文字大小
 
 指定檔名：`em_unit.html`
 
@@ -406,7 +371,7 @@ div.block{
 
 
 
-### 10 左側區塊的縮合
+### 9 左側區塊的縮合
 
 指定檔名：`aside_toggle.html`
 
@@ -464,7 +429,7 @@ btn_toggle.addEventListener("click", function(){
 
 
 
-### 11 Youtube iframe 影片 RWD
+### 10 Youtube iframe 影片 RWD
 
 提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
