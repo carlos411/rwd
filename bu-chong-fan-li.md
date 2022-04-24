@@ -1,6 +1,6 @@
 # 6 大量練習
 
-以下若有用到 jQuery，可直接提供 jQuery 載入的 CDN：(請放在 body 結束標籤之前)
+以下若有用到 jQuery，可直接載入下面這行 jQuery：(放在 body 結束標籤之前)
 
 ```markup
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
