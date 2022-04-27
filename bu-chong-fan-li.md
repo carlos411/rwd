@@ -158,7 +158,7 @@ $("button.btn_switch").on("click", function(){
 </div>
 ```
 
-請直接看下方 CodePen 的畫面結果，實作看看。
+請直接參考下方 CodePen 的畫面結果，實作看看。
 
 
 
@@ -193,9 +193,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 6 有 10 個項目的水平方向排版
-
-指定檔名：`ten_items_scroll.html`
+### 6 有 10 個項目的排版
 
 提供 html 如下：
 
@@ -266,14 +264,7 @@ $("button.btn_switch").on("click", function(){
 </div>
 ```
 
-直接參考以下的「參考作法」結果，然後直接實做。提示重點 CSS：
-
-```css
-div.list_container ul.ul_list{
-  white-space: nowrap;
-  overflow-x: auto;
-}
-```
+請直接參考下方 CodePen 的畫面結果，實作看看。
 
 
 
