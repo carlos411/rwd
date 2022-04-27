@@ -278,23 +278,72 @@ $("button.btn_switch").on("click", function(){
 
 ### 7 內容固定在螢幕上，但在其它內容的後方
 
-指定檔名：`content_fixed.html`
-
 觀察廣告區塊的介面效果：[https://youtu.be/abtFFCpcw5U](https://youtu.be/abtFFCpcw5U)
 
 {% embed url="https://youtu.be/abtFFCpcw5U" %}
 
 請做出如上廣告區塊的排版效果。
 
-結果示意：
-
-{% embed url="https://youtu.be/jNe2XwPi3uo" %}
 
 
+提供 html：
 
-註：此種效果建議用在行動版上，且內容不要太多。以免超出整個 100vh 的螢幕高度，以致於看不到內容。可從以下這個 codepen 開始實作：
+```html
+<div class="top_block"></div>
 
-{% embed url="https://codepen.io/carlos411/pen/gOaPWgZ" %}
+<div class="middle_block">
+  <div class="middle_content">
+    <a href="https://tw.yahoo.com" target="_blank">這是連結</a>
+    <img src="https://picsum.photos/id/8/500/400" class="the_img">
+  </div>
+</div>
+
+<div class="bottom_block"></div>
+```
+
+提供部份 css：
+
+```css
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+div.top_block{
+  background-color: blue;
+  height: 200vh;
+  position: relative;
+}
+div.bottom_block{
+  background-color: gray;
+  height: 200vh;
+  position: relative;
+}
+
+
+/* 中間區域 */
+div.middle_block{
+  border: 1px solid orange;
+}
+@media (min-width: 768px){
+  div.middle_block{
+    display: none;
+  }
+}
+div.middle_block div.middle_content{
+  border: 1px solid red;
+  width: 100%;
+  padding: 10px;
+}
+img.the_img{
+  width: 100%;
+}
+```
+
+註：需要寫一點 JS。
+
+可參考下方 CodePen 的畫面結果，實作看看。
 
 
 
