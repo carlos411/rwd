@@ -276,7 +276,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 7 內容固定在螢幕上，但在其它內容的後方
+### 7 廣告內容固定在手機版的螢幕上，且在其它內容的後方
 
 觀察廣告區塊的介面效果：[https://youtu.be/abtFFCpcw5U](https://youtu.be/abtFFCpcw5U)
 
