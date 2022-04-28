@@ -497,11 +497,55 @@ $("button.btn_toggle").on("click", function(){
 
 
 
+### 12 聊天對話框的展開縮合
+
+提供 html：
+
+```html
+<article class="chat_block">
+  
+  <header class="header">
+    <button type="button" class="btn_toggle">
+      <span class="on">開啟</span>
+      <span class="off">關閉</span>
+    </button>
+  </header>
+  
+  <section>
+    其它區域
+  </section>
+  
+</article>
+```
+
+提供 JS：
+
+```javascript
+var btn_toggle = document.getElementsByClassName("btn_toggle")[0];
+btn_toggle.addEventListener("click", function(){
+  this.closest("article.chat_block").classList.toggle("-on");
+});
+```
+
+參考以下的結果示意，實作看看。且在螢幕寬度小於等於 575.98px 時，就讓對話框直接消失。
+
+
+
+參考作法：
+
+{% embed url="https://codepen.io/carlos411/pen/OJzKoLX" %}
+
+
+
 
 
 參考作法：
 
 {% embed url="https://codepen.io/carlos411/pen/PoGdRmB" %}
+
+
+
+
 
 
 
@@ -545,12 +589,4 @@ header 區域的高：60px。
 [https://alldata.sgp1.digitaloceanspaces.com/sample/youtube\_layout\_practice.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/youtube\_layout\_practice.zip)
 
 
-
-## 參考
-
-### 1 套用 Font Awesome
-
-[官網](https://fontawesome.com)
-
-[下載範例](http://notes.carlos-studio.com/download/fontawesome\_sample.zip)
 
