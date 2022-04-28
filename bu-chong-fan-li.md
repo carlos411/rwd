@@ -359,7 +359,27 @@ img.the_img{
 }
 ```
 
-註：需要寫一點 JS。
+提供 JS：
+
+```javascript
+// JavaScript 版本
+window.addEventListener("load", function(){
+  setting_height();
+});
+
+window.addEventListener("resize", function(){
+  setting_height();
+});
+
+function setting_height(){
+  // 設定 div.middle_block 的高度
+  var middle_block = document.getElementsByClassName("middle_block")[0];
+  var middle_content = document.getElementsByClassName("middle_content")[0];
+  middle_block.style.height = middle_content.offsetHeight + "px";
+}
+```
+
+
 
 可參考下方 CodePen 的畫面結果，實作看看。
 
