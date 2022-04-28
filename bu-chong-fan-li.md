@@ -67,21 +67,21 @@ hamburger_icon.addEventListener("click", function(){
 
 
 
-切換 class (以下有 jQuery 及 JS 版本)：
+切換 class：
 
 ```javascript
+// JavaScript 版本
+var btn_hamburger = document.getElementsByClassName("hamburger")[0];
+btn_hamburger.addEventListener("click", function(){
+  this.classList.toggle("is-active");
+});
+
 /*
 // jQuery 版本
 $("button.hamburger").on("click", function(){
   $(this).toggleClass("is-active");
 });
 */
-
-// JavaScript 版本
-var btn_hamburger = document.getElementsByClassName("hamburger")[0];
-btn_hamburger.addEventListener("click", function(){
-  this.classList.toggle("is-active");
-});
 ```
 
 
