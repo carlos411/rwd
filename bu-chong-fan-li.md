@@ -497,6 +497,12 @@ $("button.btn_toggle").on("click", function(){
 
 
 
+參考作法：
+
+{% embed url="https://codepen.io/carlos411/pen/PoGdRmB" %}
+
+
+
 ### 12 聊天對話框的展開縮合
 
 提供 html：
@@ -534,16 +540,6 @@ btn_toggle.addEventListener("click", function(){
 參考作法：
 
 {% embed url="https://codepen.io/carlos411/pen/OJzKoLX" %}
-
-
-
-
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/PoGdRmB" %}
-
-
 
 
 
