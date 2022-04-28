@@ -294,106 +294,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 8 廣告內容固定在手機版的螢幕上，且在其它內容的後方
-
-觀察廣告區塊的介面效果：[https://youtu.be/abtFFCpcw5U](https://youtu.be/abtFFCpcw5U)
-
-{% embed url="https://youtu.be/abtFFCpcw5U" %}
-
-請做出如上廣告區塊的排版效果。
-
-
-
-提供 html：
-
-```html
-<div class="top_block"></div>
-
-<div class="middle_block">
-  <div class="middle_content">
-    <a href="https://tw.yahoo.com" target="_blank">這是連結</a>
-    <img src="https://picsum.photos/id/8/500/400" class="the_img">
-  </div>
-</div>
-
-<div class="bottom_block"></div>
-```
-
-提供部份 css：
-
-```css
-* {
-  box-sizing: border-box;
-}
-body{
-  margin: 0;
-}
-div.top_block{
-  background-color: blue;
-  height: 200vh;
-  position: relative;
-}
-div.bottom_block{
-  background-color: gray;
-  height: 200vh;
-  position: relative;
-}
-
-
-/* 中間區域 */
-div.middle_block{
-  border: 1px solid orange;
-}
-@media (min-width: 768px){
-  div.middle_block{
-    display: none;
-  }
-}
-div.middle_block div.middle_content{
-  border: 1px solid red;
-  width: 100%;
-  padding: 10px;
-}
-img.the_img{
-  width: 100%;
-}
-```
-
-提供 JS：
-
-```javascript
-// JavaScript 版本
-window.addEventListener("load", function(){
-  setting_height();
-});
-
-window.addEventListener("resize", function(){
-  setting_height();
-});
-
-function setting_height(){
-  // 設定 div.middle_block 的高度
-  var middle_block = document.getElementsByClassName("middle_block")[0];
-  var middle_content = document.getElementsByClassName("middle_content")[0];
-  middle_block.style.height = middle_content.offsetHeight + "px";
-}
-```
-
-
-
-可參考下方 CodePen 的畫面結果，實作看看。
-
-
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/ZEGdXdW" %}
-
-
-
-
-
-### 9 圓角與內距，相對於文字大小
+### 8 圓角與內距，相對於文字大小
 
 提供 html：
 
@@ -447,7 +348,7 @@ text-shadow: 0 1px 0px #ccc;
 
 
 
-### 10 左側區塊的縮合
+### 9 左側區塊的縮合
 
 提供 html：
 
@@ -503,7 +404,7 @@ $("button.btn_toggle").on("click", function(){
 
 
 
-### 11 Youtube iframe 影片 RWD
+### 10 Youtube iframe 影片 RWD
 
 提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
@@ -523,7 +424,7 @@ $("button.btn_toggle").on("click", function(){
 
 
 
-### 12 聊天對話框的展開縮合
+### 11 聊天對話框的展開縮合
 
 提供 html：
 
