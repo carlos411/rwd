@@ -528,6 +528,8 @@ $("button.btn_toggle").on("click", function(){
 提供 html：
 
 ```html
+<div style="height: 1000px; border: 1px solid purple;"></div>
+
 <article class="chat_block">
   
   <header class="header">
