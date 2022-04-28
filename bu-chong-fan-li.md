@@ -357,51 +357,49 @@ img.the_img{
 
 ### 8 圓角與內距，相對於文字大小
 
-指定檔名：`em_unit.html`
-
 提供 html：
 
 ```markup
-<div class="block">這是 div 文字<div>
+<button type="button" class="btn">加入會員</button>
 ```
 
-提供 CSS：
+提供部份 CSS：
 
 ```css
 * {
   box-sizing: border-box;
 }
-div.block{
-  border: 1px solid black;
-  display: inline-block;
-
-  font-size: 1rem;
-
-  border-radius: 8px; /* 改這個 */
-  padding: 2px 4px;   /* 改這個 */
+html{
+  font-size: 62.5%;
 }
 
-@media screen and (max-width: 767.98px){
-  div.block{
-    font-size: 2rem;
-  }
+button.btn{
+  cursor: pointer;
+  font-size: 1.6rem;
+  background-image: linear-gradient(#ddd, #bbb);
+  text-aling: center;
+  border: 1px solid hsla(0, 0%, 0%, .2);
+  text-shadow: 0 1px 1px white;
+  box-shadow: 0 1px 0 white inset;
+  transition: font-size 1s;
+  
+  
+  padding: 4px 8px;
+  border-radius: 8px;
 }
 ```
 
-上述的介面，div.block 裡的文字大小在螢幕寬度 767.98px 以下時，`font-size` 從 1rem 變成 2rem，也就是文字大小變成了 2 倍大。但「圓角(`border-radiu`s)」及「內距(`padding`)」部份，並沒有變成兩倍。
+執行以下兩點：
 
-請調整成「圓角(`border-radius`)」及「內距(`padding`)」，也要跟著文字大小改變。(提示：使用 em 單位。)
+1、按鈕點擊然後尚未放開的狀態，套用以下 CSS：
 
-* 文字大小變兩倍： 圓角 8px → 16px。
-* 文字大小變兩倍：內距 2px 4px → 4px 8px。
+```css
+border: 1px solid hsla(0, 0%, 0%, .3);
+box-shadow: 1px 2px 3px rgba(0,0,0, .6) inset;
+text-shadow: 0 1px 0px #ccc;
+```
 
-
-
-結果示意：
-
-{% embed url="https://youtu.be/te0rNqgUyO8" %}
-
-
+2、當螢幕寬度小於等於 767.98px 時，將按鈕的文字大小變成原來(1.6rem)的兩倍大(使用 rem 單位)，然後按鈕的 `padding` 及 `border-radius` 也要**自動**變兩倍大。
 
 
 
@@ -413,8 +411,6 @@ div.block{
 
 ### 9 左側區塊的縮合
 
-指定檔名：`aside_toggle.html`
-
 
 
 提供 html：
@@ -424,40 +420,42 @@ div.block{
 
 <div class="parent_flex">
   
-  <div class="left_block -on">
+  <div class="left_block">
+    
+    內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容
+    
+  </div>
+  
+  <div class="right_block -on">
     <div class="inner_content">
       <p>這是段落這是段落這是段落這是段落這是段落</p>
-      <img src="https://via.placeholder.com/100x150">
+      <img src="https://via.placeholder.com/300x150">
     </div>
   </div>
   
-  <div class="right_block">右側
-  </div>
 </div>
 ```
 
 提供 JS：
 
 ```javascript
+// JavaScript 版本
+var btn_toggle = document.getElementsByClassName("btn_toggle")[0];
+btn_toggle.addEventListener("click", function(){
+  let right_block = document.getElementsByClassName("right_block")[0];
+  right_block.classList.toggle("-on");
+});
+
+
 // jQuery 版本
 /*
 $("button.btn_toggle").on("click", function(){
   $("div.left_block").toggleClass("-on");
 });
 */
-
-// JavaScript 版本
-var btn_toggle = document.getElementsByClassName("btn_toggle")[0];
-btn_toggle.addEventListener("click", function(){
-  let left_block = document.getElementsByClassName("left_block")[0];
-  left_block.classList.toggle("-on");
-});
 ```
 
-提示方向(練習寫 Flexbox 模式，先將框線結構寫出來)：
 
-* `div.left_block.-on` 會設定到 `flex-basis: 200px;`。
-* `div.right_block` 會設定到 `flex-grow: 1;`。
 
 
 
