@@ -139,6 +139,24 @@ $("button.btn_switch").on("click", function(){
 
 
 
+## 4 導覽列開啟，不推開底下內容
+
+直接使用這個 CodePen，也可建立新的網頁檔來寫：
+
+{% embed url="https://codepen.io/carlos411/pen/gOoVjJa?editors=1010" %}
+
+撰寫 CSS，完成以下參考作法的結果。
+
+
+
+
+
+參考作法：
+
+{% embed url="https://codepen.io/carlos411/pen/NWXQBeb" %}
+
+
+
 ### 4 使用 Flexbox 做版位佈局
 
 提供 HTML 如下：
