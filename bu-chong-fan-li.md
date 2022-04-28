@@ -157,7 +157,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 4 使用 Flexbox 做版位佈局
+### 5 使用 Flexbox 做版位佈局
 
 提供 HTML 如下：
 
@@ -186,7 +186,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 5 內容圖片佔滿版
+### 6 內容圖片佔滿版
 
 提供 HTML 如下：
 
@@ -211,7 +211,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 6 有 10 個項目的排版
+### 7 有 10 個項目的排版
 
 提供 html 如下：
 
@@ -294,7 +294,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 7 廣告內容固定在手機版的螢幕上，且在其它內容的後方
+### 8 廣告內容固定在手機版的螢幕上，且在其它內容的後方
 
 觀察廣告區塊的介面效果：[https://youtu.be/abtFFCpcw5U](https://youtu.be/abtFFCpcw5U)
 
@@ -373,7 +373,7 @@ img.the_img{
 
 
 
-### 8 圓角與內距，相對於文字大小
+### 9 圓角與內距，相對於文字大小
 
 提供 html：
 
@@ -427,9 +427,7 @@ text-shadow: 0 1px 0px #ccc;
 
 
 
-### 9 左側區塊的縮合
-
-
+### 10 左側區塊的縮合
 
 提供 html：
 
@@ -485,7 +483,7 @@ $("button.btn_toggle").on("click", function(){
 
 
 
-### 10 Youtube iframe 影片 RWD
+### 11 Youtube iframe 影片 RWD
 
 提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
