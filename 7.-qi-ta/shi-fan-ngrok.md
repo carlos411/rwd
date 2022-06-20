@@ -14,7 +14,7 @@
 
 ### 第一步：註冊 ngrok 並登入
 
-進到[官網](https://ngrok.com/)，執行註冊並登入，如下示意：
+進到[官網](https://ngrok.com/)，執行註冊(需到自己的 email 收件匣做驗證)並登入，如下示意：
 
 ![](../.gitbook/assets/ngrok\_new.png)
 
