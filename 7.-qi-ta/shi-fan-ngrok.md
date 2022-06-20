@@ -46,7 +46,9 @@ Windows：
 
 進到後台，找到下圖的指令，進行複製：
 
-![](../.gitbook/assets/ngrok\_auth.png)
+![](../.gitbook/assets/ngrok\_config\_add\_token.png)
+
+
 
 Mac 欲執行的指令(`$` 不需要打，它是表示輸入指令的意思)：
 
