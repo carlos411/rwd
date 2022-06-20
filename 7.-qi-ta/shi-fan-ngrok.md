@@ -14,9 +14,11 @@
 
 ### 第一步：註冊 ngrok 並登入
 
-進到[官網](https://ngrok.com)，執行註冊並登入，如下示意：
+進到[官網](https://ngrok.com/)，執行註冊並登入，如下示意：
 
-![](../.gitbook/assets/ngrok\_signup.png)
+![](../.gitbook/assets/ngrok\_new.png)
+
+****
 
 **登入**後，可看到如下後台：
 

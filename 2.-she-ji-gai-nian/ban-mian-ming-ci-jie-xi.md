@@ -6,7 +6,7 @@
 概念：版面是固定寬度，不論螢幕寬度如何，都不會影響版面大小。
 {% endhint %}
 
-案例參考：[台灣雕塑學會](http://sculpture.org.tw)
+案例參考：[台灣雕塑學會](http://sculpture.org.tw/)
 
 
 
@@ -34,7 +34,7 @@
 * 針對螢幕寬度 767px，版面主內容區塊 576px。
 * 針對螢幕寬度 575px，版面主內容區塊 100%。
 
-以[這個網站](https://p.tainan.gov.tw)為例。
+以[這個網站](https://p.tainan.gov.tw/)為例。
 
 
 

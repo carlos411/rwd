@@ -26,29 +26,29 @@
 
 ### 有 RWD
 
-* [臺南市政府圖片資料庫平台](https://p.tainan.gov.tw) (手機瀏覽看看： [https://p.tainan.gov.tw/](https://p.tainan.gov.tw) )
+* [臺南市政府圖片資料庫平台](https://p.tainan.gov.tw/) (手機瀏覽看看： [https://p.tainan.gov.tw/](https://p.tainan.gov.tw/) )
 
 ### 沒有 RWD
 
-* [台灣雕塑學會](http://www.sculpture.org.tw) ( 手機瀏覽：[http://www.sculpture.org.tw/](http://www.sculpture.org.tw) )
-* [大豐衛星車隊](http://www.dftaxi.com.tw) ( 手機瀏覽：[http://www.dftaxi.com.tw/](http://www.dftaxi.com.tw/service.php?sn=24) )
+* [台灣雕塑學會](http://www.sculpture.org.tw/) ( 手機瀏覽：[http://www.sculpture.org.tw/](http://www.sculpture.org.tw/) )
+* [大豐衛星車隊](http://www.dftaxi.com.tw/) ( 手機瀏覽：[http://www.dftaxi.com.tw/](http://www.dftaxi.com.tw/service.php?sn=24) )
 
 ### 其它：網站前端
 
 * [X Fail 活動](http://xfail.tw)
 * [鉅亨網債劵基金排行](https://fund.cnyes.com/Fixedincome/index.aspx)、[鉅亨網債劵基金搜尋器](https://fund.cnyes.com/Fixedincome/search.aspx)
 * [matchnow 網紅平台](https://matchnow.co)
-* [5breakfast 早餐平台](https://5breakfast.com)
-* [上海在野設計](http://www.zaiyedesign.com)
+* [5breakfast 早餐平台](https://5breakfast.com/)
+* [上海在野設計](http://www.zaiyedesign.com/)
 * [毅創投資](http://enspire.vc/zh/%E9%97%9C%E6%96%BC%E6%88%91%E5%80%91/)
 * [健康好腎活](http://www.ckdlife.com.tw/index)
-* [Ctrl + P 兒童3D列印](https://ctrl-p.tw)
+* [Ctrl + P 兒童3D列印](https://ctrl-p.tw/)
 
 ### 其它：主機代管
 
 * [MBA 顧問](https://sabinahuang.com)
 * [智夢](https://www.akadgroup.com)
-* [RocketAdmit](https://rocketadmit.com)
+* [RocketAdmit](https://rocketadmit.com/)
 
 ### 其它：網站架設
 
@@ -56,7 +56,7 @@
 * [亞太公私合夥建設發展協會](http://ppp.org.tw)
 * [長風文教基金會](http://fairwindsfoundation.org)
 * [矽谷創業家協會](https://sveat.org)
-* [臺南市政府圖片資料庫平台](https://p.tainan.gov.tw)
+* [臺南市政府圖片資料庫平台](https://p.tainan.gov.tw/)
 * [團購導購地圖(舊版)](http://notes.carlos-studio.com/55555map/map.php)
 
 ## 聯絡方式

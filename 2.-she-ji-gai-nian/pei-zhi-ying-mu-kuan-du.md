@@ -55,5 +55,5 @@
 
 ## 參考
 
-* [960 Grid System](https://960.gs)
-* [Simple Grid](https://simplegrid.io)
+* [960 Grid System](https://960.gs/)
+* [Simple Grid](https://simplegrid.io/)
