@@ -22,7 +22,9 @@
 
 **登入**後，可看到如下後台：
 
-![](../.gitbook/assets/ngrok\_dashboard.png)
+![](../.gitbook/assets/ngrok\_setup.png)
+
+
 
 
 
