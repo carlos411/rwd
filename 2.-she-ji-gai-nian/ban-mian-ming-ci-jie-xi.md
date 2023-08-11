@@ -35,6 +35,10 @@
 * 針對螢幕寬度 576px \~ 767px，版面主內容區塊 540px。
 * 針對螢幕寬度 0px \~ 575px，版面主內容區塊 100%。
 
+例：
+
+{% embed url="https://codepen.io/carlos411/pen/oNQrGBG" %}
+
 
 
 ## Responsive：響應式
