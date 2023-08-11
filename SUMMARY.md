@@ -29,6 +29,6 @@
   * [5.1 作業一](ban-mian-lei-xing-shi-zuo/zuo-ye-yi.md)
   * [5.2 作業二](ban-mian-lei-xing-shi-zuo/xiang-ying-shi-ban-xing-responsive.md)
   * [5.3 作業繳交方式](ban-mian-lei-xing-shi-zuo/5.3-zuo-ye-jiao-jiao-fang-shi.md)
-* [6 大量練習](bu-chong-fan-li.md)
+* [6 練習](bu-chong-fan-li.md)
 * [7 手機連本機端網站](shi-fan-ngrok.md)
 * [8 參考資料](qi-ta.md)
