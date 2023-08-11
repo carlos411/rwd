@@ -7,7 +7,6 @@
 * [2 設計概念](2.-she-ji-gai-nian/README.md)
   * [2.1 格線系統 Grid System](2.-she-ji-gai-nian/pei-zhi-ying-mu-kuan-du.md)
   * [2.2 版面概念解析](2.-she-ji-gai-nian/ban-mian-ming-ci-jie-xi.md)
-  * [2.3 圖片在螢幕上的模糊現象](2.-she-ji-gai-nian/retina-ying-mu.md)
 * [3 技術層面](3.-ji-shu-ceng-mian/README.md)
   * [3.1 媒體查詢 Media Query](3.-ji-shu-ceng-mian/mei-ti-cha-xun-media-query/README.md)
     * [3.1.1 媒體類型 Media Type](3.-ji-shu-ceng-mian/mei-ti-cha-xun-media-query/mei-ti-lei-xing-media-type.md)
