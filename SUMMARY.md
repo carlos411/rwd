@@ -12,7 +12,6 @@
   * [3.2 Viewport](3.-ji-shu-ceng-mian/viewport/README.md)
     * [3.2.1 Viewport 定義](3.-ji-shu-ceng-mian/viewport/viewport-ding-yi.md)
     * [3.2.2 HTML Viewport Meta](3.-ji-shu-ceng-mian/viewport/html-viewport-zhong-jie-zi-liao.md)
-  * [3.3 實際裝置瀏覽](3.-ji-shu-ceng-mian/mei-ti-cha-xun-yu-viewport.md)
 * [4 Bootstrap Framework](4.-bootstrap-framework/README.md)
   * [4.1 什麼是 Bootstrap](4.-bootstrap-framework/shen-me-shi-bootstrap.md)
   * [4.2 如何使用 Bootstrap](4.-bootstrap-framework/ru-he-shi-yong-bootstrap.md)
