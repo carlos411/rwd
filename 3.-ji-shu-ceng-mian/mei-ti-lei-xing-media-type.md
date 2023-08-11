@@ -8,7 +8,7 @@
 
 
 
-## 範例一：Media Type 是 print
+## 範例：Media Type 是 print
 
 使用 print 這 media type 來指定列印時，要套用的 CSS：
 
