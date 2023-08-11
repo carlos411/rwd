@@ -165,7 +165,7 @@ orientation 可以設定當手持裝置是橫向或縱向時，需要套用的 C
 
 ## 練習：依螢幕寬度區隔，設定某區塊的 Media Query
 
-請建立 **`media_query.html`** 網頁檔，然後將 `div.my_div1` 區塊水平置中，並將該區塊按照以下 media query 規則設定：
+請建立 **`media_query.html`** 網頁檔，貼以下 codepen 提供的 HTML 和 CSS，然後將 `div.my_div1` 區塊水平置中，並將該區塊按照以下 media query 規則設定：
 
 * 瀏覽器寬度 <= 575.98px 時，`div.my_div1` 的寬度設定成 100%。
 * 576px <= 瀏覽器寬度 <= 767.98px 時，`div.my_div1` 的寬度設定成 540px。
