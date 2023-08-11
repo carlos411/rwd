@@ -1,4 +1,4 @@
-# 7.2 參考資料
+# 8 參考資料
 
 * [RWD 相關主題文章(Responsive Web Design Is…)](https://responsivedesign.is)
 * [假圖產生](https://picsum.photos/)
@@ -98,8 +98,4 @@
 * 版本控管：[Git](https://git-scm.com/) (介面工具：[Sourcetree](https://www.sourcetreeapp.com/))
 * 使用容器技術佈署：[Docker](https://www.docker.com/)
 * 雲端伺服器平台服務：[AWS](https://aws.amazon.com/tw/)、[DigitalOcean](https://m.do.co/c/094511cac7d9)、[Google Cloud](https://cloud.google.com/)
-
-## 網站上線
-
-![基本網站上線流程](../.gitbook/assets/web\_process.png)
 
