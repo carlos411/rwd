@@ -13,7 +13,7 @@
     * [3.1.2 媒體描述 Media Features](3.-ji-shu-ceng-mian/mei-ti-cha-xun-media-query/mei-ti-miao-shu-zi-media-descriptor.md)
   * [3.2 Viewport](3.-ji-shu-ceng-mian/viewport/README.md)
     * [3.2.1 Viewport 定義](3.-ji-shu-ceng-mian/viewport/viewport-ding-yi.md)
-    * [3.2.2 HTML Viewport 中介資料](3.-ji-shu-ceng-mian/viewport/html-viewport-zhong-jie-zi-liao.md)
+    * [3.2.2 HTML Viewport Meta](3.-ji-shu-ceng-mian/viewport/html-viewport-zhong-jie-zi-liao.md)
   * [3.3 實際裝置瀏覽](3.-ji-shu-ceng-mian/mei-ti-cha-xun-yu-viewport.md)
 * [4 Bootstrap Framework](4.-bootstrap-framework/README.md)
   * [4.1 什麼是 Bootstrap](4.-bootstrap-framework/shen-me-shi-bootstrap.md)
