@@ -163,3 +163,27 @@ orientation 可以設定當手持裝置是橫向或縱向時，需要套用的 C
 
 
 
+## 練習：依螢幕寬度區隔，設定某區塊的 Media Query
+
+請建立 **`media_query.html`** 網頁檔，然後將 `div.my_div1` 區塊水平置中，並將該區塊按照以下 media query 規則設定：
+
+* 瀏覽器寬度 <= 575.98px 時，`div.my_div1` 的寬度設定成 100%。
+* 576px <= 瀏覽器寬度 <= 767.98px 時，`div.my_div1` 的寬度設定成 540px。
+* 768px <= 瀏覽器寬度 <= 991.98px 時，`div.my_div1` 的寬度設定成 720px。
+* 992px <= 瀏覽器寬度 <= 1199.98px 時，`div.my_div1` 的寬度設定成 960px。
+* 1200px <= 瀏覽器寬度 < 1399.98px 時，`div.my_div1` 的寬度設定成 1140px。
+* 瀏覽器寬度>= 1400px 時，`div.my_div1` 的寬度設定成 1320px。
+* 留意圖片不得超出 `div.my_div1` 的區塊。而且當 `div.my_div1` 的寬度大於圖片寬度時，圖片應維持原圖尺吋。
+
+{% embed url="https://codepen.io/carlos411/pen/ZgEWrN" %}
+依螢幕寬度區隔，設定某區塊的 Media Query
+{% endembed %}
+
+
+
+結果示意：
+
+{% embed url="https://youtu.be/C3tEOdpZfTM" %}
+
+
+
