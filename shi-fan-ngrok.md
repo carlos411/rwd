@@ -1,4 +1,4 @@
-# 7 手機連本機端網站
+# 8 手機連本機端網站
 
 ## 使用相同區網方式
 
@@ -7,20 +7,6 @@
 {% hint style="info" %}
 進行以下步驟之前，需先確認自己本機端有網站正在執行。例如：**`http://127.0.0.1:5500`**
 {% endhint %}
-
-
-
-### 第一步：註冊 ngrok 並登入
-
-進到[官網](https://ngrok.com/)，執行註冊(需到自己的 email 收件匣做驗證)並登入，如下示意：
-
-![](.gitbook/assets/ngrok\_new.png)
-
-
-
-**登入**後，可看到如下後台：
-
-![](.gitbook/assets/ngrok\_setup.png)
 
 
 
