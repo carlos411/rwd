@@ -18,6 +18,8 @@
 
 參考範例：[https://jamesblasco.github.io/fluid\_layout/#/](https://jamesblasco.github.io/fluid\_layout/#/)
 
+
+
 ## Adaptive：自適性
 
 {% hint style="success" %}
@@ -42,10 +44,14 @@
 概念：不論使用者用的螢幕裝置為何(桌機、平板、手機等)，版面要能夠自動的調整，以維持易讀性、易用性，讓使用者能夠正常的使用、操作。
 {% endhint %}
 
+
+
 ## 重要觀念
 
 * 以上概念，並非是擇一使用，通常一個網頁當中，是這些概念的混用，以達成我們要呈現給使用者的介面。
 * 介面的好壞，並非由你、設計師、工程師決定。而是由用戶決定(~~雖然大部份的情況可能是 Boss 決定~~)，需要經過數據，來做分析介面流程的決策。未來的研究：[A/B Test](https://support.google.com/optimize/answer/6211930?hl=en\&ref\_topic=6197696) 。
+
+
 
 ## 範例觀察
 
