@@ -89,7 +89,7 @@
 以半型逗號做分隔。
 
 ```css
-@media screen and (min-width: 1200px), screen and (max-width: 767px){
+@media screen and (min-width: 1200px), screen and (max-width: 767.98px){
   p{
     color: blue;
   }
