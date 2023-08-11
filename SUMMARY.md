@@ -32,4 +32,4 @@
 * [6 大量練習](bu-chong-fan-li.md)
 * [7 其它](7.-qi-ta/README.md)
   * [7.1 手機連本機端網站](7.-qi-ta/shi-fan-ngrok.md)
-  * [7.2 參考資料](7.-qi-ta/qi-ta.md)
+* [8 參考資料](qi-ta.md)
