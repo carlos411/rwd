@@ -7,10 +7,14 @@
 
 思維：在一個 **HTML** 頁面，撰寫 **CSS**，透過**媒體查詢( Media Query )**，在面對不同的螢幕寬度時，都能正常呈現且維持良好的體驗。
 
+
+
 ## 誰該學習這門課程？
 
 * 對網站前端工程領域有興趣。
 * 已經學習過基礎的 HTML、CSS，想進一步瞭解 RWD 主題。
+
+
 
 ## Code Pen 註冊
 
@@ -18,18 +22,18 @@
 
 [https://codepen.io/](https://codepen.io/)
 
+
+
 ## 編輯器
 
-* [Atom](https://atom.io/)
-* [Sublime](https://www.sublimetext.com/)
 * [VS Code](https://code.visualstudio.com/)
+
+
 
 ## 瀏覽器
 
 * [Chrome](https://www.google.com/intl/zh-TW/chrome/)
 * [Firefox](https://www.mozilla.org/zh-TW/firefox/new/)
 * Safari
-* [Edge](https://www.microsoft.com/en-us/edge) (也有 Mac 版的了)
-* IE11
-* [Opera](https://www.opera.com/zh-tw)
+* [Edge](https://www.microsoft.com/en-us/edge)
 
