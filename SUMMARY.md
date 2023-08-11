@@ -30,6 +30,6 @@
   * [5.2 作業二](ban-mian-lei-xing-shi-zuo/xiang-ying-shi-ban-xing-responsive.md)
   * [5.3 作業繳交方式](ban-mian-lei-xing-shi-zuo/5.3-zuo-ye-jiao-jiao-fang-shi.md)
 * [6 大量練習](bu-chong-fan-li.md)
-* [7 其它](7.-qi-ta/README.md)
-  * [7.1 手機連本機端網站](7.-qi-ta/shi-fan-ngrok.md)
+* [7 手機連本機端網站](shi-fan-ngrok.md)
+* [7 其它](7.-qi-ta.md)
 * [8 參考資料](qi-ta.md)
