@@ -5,7 +5,7 @@
   * [1.1 講者簡介](jian-jie-1/jiang-zhe-jian-jie.md)
   * [1.2 課程簡介](jian-jie-1/ke-cheng-jian-jie.md)
 * [2 版面概念解析](2.-she-ji-gai-nian/ban-mian-ming-ci-jie-xi.md)
-* [3 技術層面](3.-ji-shu-ceng-mian/README.md)
+* [3 Media Query](3.-ji-shu-ceng-mian/README.md)
   * [3.1 媒體查詢 Media Query](3.-ji-shu-ceng-mian/mei-ti-cha-xun-media-query/README.md)
     * [3.1.1 媒體類型 Media Type](3.-ji-shu-ceng-mian/mei-ti-cha-xun-media-query/mei-ti-lei-xing-media-type.md)
     * [3.1.2 媒體描述 Media Features](3.-ji-shu-ceng-mian/mei-ti-cha-xun-media-query/mei-ti-miao-shu-zi-media-descriptor.md)
