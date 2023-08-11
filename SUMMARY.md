@@ -22,7 +22,6 @@
   * [4.8 小圖示 Icons](4.-bootstrap-framework/4.8-icons.md)
   * [4.9 僅載入 Grid 相關 CSS](4.-bootstrap-framework/4.9-jin-zai-ru-grid-xiang-guan-css.md)
 * [6 練習](bu-chong-fan-li.md)
-* [7 RWD 作業](ban-mian-lei-xing-shi-zuo/README.md)
-  * [5.1 作業一](ban-mian-lei-xing-shi-zuo/zuo-ye-yi.md)
+* [7 RWD 作業](ban-mian-lei-xing-shi-zuo.md)
 * [8 手機連本機端網站](shi-fan-ngrok.md)
 * [9 參考資料](qi-ta.md)
