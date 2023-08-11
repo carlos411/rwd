@@ -28,6 +28,3 @@
 
 {% embed url="https://youtu.be/C3tEOdpZfTM" %}
 
-
-
-參考作法：
