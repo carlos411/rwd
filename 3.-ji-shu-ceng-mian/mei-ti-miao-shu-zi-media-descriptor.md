@@ -1,4 +1,4 @@
-# 3.1.2 媒體描述 Media Features
+# 3.2 媒體描述 Media Features
 
 ## 範例 1：min-width
 
@@ -35,7 +35,7 @@
 當螢幕寬度小於等於 767px 時，連結`<a>` 的文字顏色會變成綠色。
 
 ```css
-@media (max-width: 767px){
+@media (max-width: 767.98px){
   a{
     color: green;
   }
