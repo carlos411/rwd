@@ -12,40 +12,6 @@
 
 
 
-### 第二步：下載 ngrok 指令檔
-
-至 [ngrok 下載網址](https://ngrok.com/download)，下載**解壓縮**，會取得一個檔名為 **`ngrok`** 的檔案，可任意存放在你想存的位置。下載的按鈕如下圖示意：
-
-Mac：
-
-![](.gitbook/assets/ngrok\_mac\_download.png)
-
-Windows：
-
-![](.gitbook/assets/ngrok\_window\_download.png)
-
-
-
-### 第三步：設定 Authtoken
-
-進到後台，找到下圖的指令，進行複製：
-
-![](.gitbook/assets/ngrok\_config\_add\_token.png)
-
-
-
-Mac 欲執行的指令(`$` 不需要打，它是表示輸入指令的意思)：
-
-```
-$ ./ngrok config add-authtoken 這裡是自己的代碼
-```
-
-Windows 欲執行的指令(`$` 不需要打，它是表示輸入指令的意思)：
-
-```
-$ ngrok config add-authtoken 這裡是自己的代碼
-```
-
 
 
 
