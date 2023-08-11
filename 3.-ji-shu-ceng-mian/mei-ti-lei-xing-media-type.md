@@ -1,10 +1,12 @@
-# 3.1.1 媒體類型 Media Type
+# 3.1 媒體類型 Media Type
 
 ## 包含哪幾種
 
 * all：所有類型都包含。
 * screen：這是最常用的，螢幕裝置。
 * print：用於列印時。
+
+
 
 ## 範例一：Media Type 是 print
 
@@ -29,11 +31,15 @@ h1{
 Media Query 使用 Media Type 為 print(列印時)
 {% endembed %}
 
+
+
 ## 媒體類型(Media Type) 的套用方式
 
 一般來說，沒有特別指定的話，Media Type 預設都是 all，也就是不管任何情況，都會套用。
 
 如果要指定 Media Type 的話，可按照以下方式來指定：
+
+
 
 ### 方式一：設定 media 屬性
 
@@ -43,7 +49,6 @@ Media Query 使用 Media Type 為 print(列印時)
 <link rel="stylesheet" href="abc.css" media="print">
 
 <!-- 或 -->
-
 <style media="print">
   /* 其它 CSS */
 </style>
@@ -55,11 +60,12 @@ Media Query 使用 Media Type 為 print(列印時)
 <link rel="stylesheet" href="abc.css" media="screen, print">
 
 <!-- 或 -->
-
 <style media="screen, print">
   /* 其它 CSS */
 </style>
 ```
+
+
 
 ### 方式二：寫在 CSS 中
 
@@ -70,7 +76,6 @@ Media Query 使用 Media Type 為 print(列印時)
 @import url("abc.css") print;
 
 /* 或以下這個寫法 */
-
 @media print {
   /* 其它 CSS */
 }
@@ -83,7 +88,6 @@ Media Query 使用 Media Type 為 print(列印時)
 @import url("abc.css") screen, print;
 
 /* 或以下這個寫法 */
-
 @media screen, print {
   /* 其它 CSS */
 }
