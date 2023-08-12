@@ -284,63 +284,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-
-
-## 8 圓角與內距，相對於文字大小
-
-提供 html：
-
-```markup
-<button type="button" class="btn">加入會員</button>
-```
-
-提供部份 CSS：
-
-```css
-* {
-  box-sizing: border-box;
-}
-html{
-  font-size: 62.5%;
-}
-
-button.btn{
-  cursor: pointer;
-  font-size: 1.6rem;
-  background-image: linear-gradient(#ddd, #bbb);
-  text-aling: center;
-  border: 1px solid hsla(0, 0%, 0%, .2);
-  text-shadow: 0 1px 1px white;
-  box-shadow: 0 1px 0 white inset;
-  transition: font-size 1s;
-  
-  
-  padding: 4px 8px;
-  border-radius: 8px;
-}
-```
-
-執行以下兩點：
-
-1、按鈕點擊然後尚未放開的狀態，套用以下 CSS：
-
-```css
-border: 1px solid hsla(0, 0%, 0%, .3);
-box-shadow: 1px 2px 3px rgba(0,0,0, .6) inset;
-text-shadow: 0 1px 0px #ccc;
-```
-
-2、當螢幕寬度小於等於 767.98px 時，將按鈕的文字大小變成原來(1.6rem)的兩倍大(使用 rem 單位)，然後按鈕的 `padding` 及 `border-radius` 也要**自動**變兩倍大。
-
-
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/GRpLpLB" %}
-
-
-
-## 9 左側區塊的縮合
+## 8 左側區塊的縮合
 
 提供 html：
 
@@ -396,7 +340,7 @@ $("button.btn_toggle").on("click", function(){
 
 
 
-## 10 Youtube iframe 影片 RWD
+## 9 Youtube iframe 影片 RWD
 
 提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
@@ -416,7 +360,7 @@ $("button.btn_toggle").on("click", function(){
 
 
 
-## 11 聊天對話框的展開縮合
+## 10 聊天對話框的展開縮合
 
 提供 html：
 
