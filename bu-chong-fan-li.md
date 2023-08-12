@@ -49,15 +49,6 @@ btn_hamburger_el.addEventListener("click", function(){
 </nav>
 ```
 
-提供 jQuery 的展開縮合的做法(較簡單)：
-
-```javascript
-// 點擊按鈕，選單縮放
-$("button.btn_switch").on("click", function(){
-  $("nav.main_nav").slideToggle();
-});
-```
-
 
 
 結果示意：
