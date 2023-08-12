@@ -2,7 +2,9 @@
 
 ## 1 介面 hamburger icon
 
-用 button 標籤做一個 hamburger icon。
+例如以下 apple 行動版官網，影片示意：
+
+{% file src=".gitbook/assets/hamburger_icon_sample.mov" %}
 
 提供 html：
 
