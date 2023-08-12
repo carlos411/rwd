@@ -1,10 +1,8 @@
 # 7 RWD 作業
 
-
-
 ## 實作類似 Youtube 版型
 
-建立 **`youtube_layout.html`** 來撰寫以下各步驟：
+在 **`assignment_rwd`** 資料夾下，建立 **`youtube_layout.html`** 來撰寫以下各步驟：
 
 第一步：[https://youtu.be/\_WbrNB61JZ0](https://youtu.be/\_WbrNB61JZ0)
 
