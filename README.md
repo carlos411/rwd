@@ -4,6 +4,6 @@
 
 網址：[https://docs.webmix.cc/responsive-web-design/](https://docs.webmix.cc/responsive-web-design/)
 
-或 QR Code：
+或 QR Code ab：
 
 ![Responsive Web Design](.gitbook/assets/qrcode\_rwd\_tutorial.png)
