@@ -37,17 +37,19 @@
 
 
 
-## 作業繳交方式
+## 繳交方式
+
+於以下網址繳交：
+
+[https://frontend.tibame.com](https://frontend.tibame.com)
+
+將 **`assignment_rwd 資料夾`**壓縮變成壓縮檔(zip 檔或 rar 檔)，繳交該壓縮檔即可。
 
 
 
+## 繳交期限
 
-
-## Tibame 平台
-
-前端班： frontend.tibame.com
-
-JAVA 班： java.tibame.com
+繳交期限 /() 晚上 12 點之前。
 
 
 
