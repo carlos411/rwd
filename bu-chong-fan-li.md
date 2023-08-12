@@ -276,8 +276,6 @@ $("button.btn_switch").on("click", function(){
 
 請直接參考下方 CodePen 的畫面結果，實作看看。
 
-
-
 參考作法：
 
 {% embed url="https://codepen.io/carlos411/pen/QWWdrbX" %}
@@ -296,53 +294,7 @@ $("button.btn_switch").on("click", function(){
 
 {% embed url="https://youtu.be/uEzbFE37CI8" %}
 
-
-
 參考作法：
 
 {% embed url="https://codepen.io/carlos411/pen/PoGdRmB" %}
-
-
-
-## 9 聊天對話框的展開縮合
-
-提供 html：
-
-```html
-<div style="height: 1000px; border: 1px solid purple;"></div>
-
-<article class="chat_block">
-  
-  <header class="header">
-    <button type="button" class="btn_toggle">
-      <span class="on">開啟</span>
-      <span class="off">關閉</span>
-    </button>
-  </header>
-  
-  <section>
-    其它區域
-  </section>
-  
-</article>
-```
-
-提供 JS：
-
-```javascript
-var btn_toggle = document.getElementsByClassName("btn_toggle")[0];
-btn_toggle.addEventListener("click", function(){
-  this.closest("article.chat_block").classList.toggle("-on");
-});
-```
-
-參考以下的結果示意，實作看看。且在螢幕寬度小於等於 575.98px 時，就讓對話框直接消失。
-
-
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/OJzKoLX" %}
-
-
 
