@@ -284,63 +284,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-## 8 左側區塊的縮合
-
-提供 html：
-
-```markup
-<button type="button" class="btn_toggle">縮合</button>
-
-<div class="parent_flex">
-  
-  <div class="left_block">
-    
-    內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容內容
-    
-  </div>
-  
-  <div class="right_block -on">
-    <div class="inner_content">
-      <p>這是段落這是段落這是段落這是段落這是段落</p>
-      <img src="https://via.placeholder.com/300x150">
-    </div>
-  </div>
-  
-</div>
-```
-
-提供 JS：
-
-```javascript
-// JavaScript 版本
-var btn_toggle = document.getElementsByClassName("btn_toggle")[0];
-btn_toggle.addEventListener("click", function(){
-  let right_block = document.getElementsByClassName("right_block")[0];
-  right_block.classList.toggle("-on");
-});
-
-
-// jQuery 版本
-/*
-$("button.btn_toggle").on("click", function(){
-  $("div.left_block").toggleClass("-on");
-});
-*/
-```
-
-
-
-
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/qBOGPwz" %}
-
-
-
-
-
-## 9 Youtube iframe 影片 RWD
+## 8 Youtube iframe 影片 RWD
 
 提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
@@ -360,7 +304,7 @@ $("button.btn_toggle").on("click", function(){
 
 
 
-## 10 聊天對話框的展開縮合
+## 9 聊天對話框的展開縮合
 
 提供 html：
 
