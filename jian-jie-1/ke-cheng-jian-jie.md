@@ -39,3 +39,11 @@
 * Safari
 * [Edge](https://www.microsoft.com/en-us/edge)
 
+
+
+## 前置
+
+建立 rwd 資料夾，然後裡面建立 practice 及 assignment\_rwd 兩個資料夾。
+
+請用 VS Code 編輯器開啟，及使用 live server。
+
