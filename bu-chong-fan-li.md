@@ -9,77 +9,27 @@
 提供 html：
 
 ```html
-<button type="button" class="hamburger_icon">
-  <span class="-hr -top"></span>
-  <span class="-hr -middle"></span>
-  <span class="-hr -bottom"></span>
-</button>
+<button type="button" id="btn_hamburger"></button>
 ```
 
-
-
-切換 class (使用 JavaScript)：
+切換 class 的 JS 程式：
 
 ```javascript
-// 按鈕狀態的切換
-var hamburger_icon = document.getElementsByClassName("hamburger_icon")[0];
-hamburger_icon.addEventListener("click", function(){
-  hamburger_icon.classList.toggle("-on");
+let btn_hamburger_el = document.getElementById("btn_hamburger");
+btn_hamburger_el.addEventListener("click", function(){
+  this.classList.toggle("-on")
 });
-```
-
-結果示意：
-
-{% embed url="https://youtu.be/6rJP4TZF4SU" %}
-
-
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/rNBErJy" %}
-
-
-
-
-
-## 2 套用 hamburger icon 的外掛
-
-[套件官網](https://jonsuh.com/hamburgers/)。
-
-[官方所提供的 css 在這](https://raw.githubusercontent.com/jonsuh/hamburgers/master/dist/hamburgers.css)。
-
-自行挑選一個效果，學會套用。只需要看官網裡的 Usage 1 \~ 4 點即可。
-
-
-
-切換 class：
-
-```javascript
-// JavaScript 版本
-var btn_hamburger = document.getElementsByClassName("hamburger")[0];
-btn_hamburger.addEventListener("click", function(){
-  this.classList.toggle("is-active");
-});
-
-/*
-// jQuery 版本
-$("button.hamburger").on("click", function(){
-  $(this).toggleClass("is-active");
-});
-*/
 ```
 
 
 
 參考作法：
 
-{% embed url="https://codepen.io/carlos411/pen/xvVLyR" %}
+{% embed url="https://codepen.io/carlos411/pen/KKrjxYJ" %}
 
 
 
-
-
-## 3 導覽列縮合
+## 2 導覽列縮合
 
 指定檔名：`nav_switch.html`
 
@@ -124,7 +74,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-## 4 導覽列開啟，不推開底下內容
+## 3 導覽列開啟，不推開底下內容
 
 直接使用這個 CodePen，也可建立新的網頁檔來寫：
 
@@ -142,7 +92,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-## 5 使用 Flexbox 做版位佈局
+## 4 使用 Flexbox 做版位佈局
 
 提供 HTML 如下：
 
@@ -171,7 +121,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-## 6 內容圖片佔滿版
+## 5 內容圖片佔滿版
 
 提供 HTML 如下：
 
@@ -196,7 +146,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-## 7 有 10 個項目的排版
+## 6 有 10 個項目的排版
 
 提供 html 如下：
 
@@ -275,7 +225,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-## 8 Youtube iframe 影片 RWD
+## 7 Youtube iframe 影片 RWD
 
 提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
