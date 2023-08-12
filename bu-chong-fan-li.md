@@ -2,6 +2,8 @@
 
 ## 1 介面 hamburger icon
 
+檔名建議：`btn_hamburger.html`
+
 例如以下 apple 行動版官網，影片示意：
 
 {% file src=".gitbook/assets/hamburger_icon_sample.mov" %}
@@ -31,7 +33,7 @@ btn_hamburger_el.addEventListener("click", function(){
 
 ## 2 導覽列縮合
 
-指定檔名：`nav_switch.html`
+檔名建議：`nav_switch.html`
 
 提供 html：
 
@@ -63,10 +65,6 @@ $("button.btn_switch").on("click", function(){
 {% embed url="https://youtu.be/8Q7obn9a9hU" %}
 
 
-
-參考作法(使用 jQuery 做展開縮合)：
-
-{% embed url="https://codepen.io/carlos411/pen/XvGKQz" %}
 
 以下提供 JavaScript 的展開縮合做法：
 
