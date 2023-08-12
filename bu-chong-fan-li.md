@@ -38,9 +38,9 @@ btn_hamburger_el.addEventListener("click", function(){
 提供 html：
 
 ```markup
-<button type="button" class="btn_switch">導覽列縮合按鈕</button>
+<button type="button" id="btn_hamburger">導覽列縮合按鈕</button>
 
-<nav class="main_nav">
+<nav class="main_nav" id="nav_block">
   <ul class="nav_list">
     <li><a href="#">首頁</a></li>
     <li><a href="#">關於我們</a></li>
@@ -49,13 +49,21 @@ btn_hamburger_el.addEventListener("click", function(){
 </nav>
 ```
 
+提供 JS：
+
+```javascript
+var btn_switch = document.getElementById("btn_hamburger");
+btn_switch.addEventListener("click", function(){
+  var nav_el = document.getElementById("nav_block");
+  nav_el.classList.toggle("-on");
+});
+```
 
 
-結果示意：
 
-{% embed url="https://youtu.be/8Q7obn9a9hU" %}
+參考作法：
 
-
+{% embed url="https://codepen.io/carlos411/pen/eYQwQrV" %}
 
 
 
