@@ -28,7 +28,7 @@
 
 第四步：[https://youtu.be/EsNq1FjpD1s](https://youtu.be/EsNq1FjpD1s)
 
-* 寬度小於等於 767px 時，介面調整。
+* 寬度小於等於 `767.98px` 時，介面調整。
 * 模擬漢堡按鈕，點擊後出現導覽列。
 
 {% embed url="https://youtu.be/EsNq1FjpD1s" %}
@@ -45,15 +45,13 @@
 
 ## Tibame 平台
 
-java.tibame.com
+前端班： frontend.tibame.com
 
-frontend.tibame.com
+JAVA 班： java.tibame.com
 
 
 
 ## 參考作法
-
-[https://alldata.sgp1.digitaloceanspaces.com/sample/youtube\_layout\_practice.zip](https://alldata.sgp1.digitaloceanspaces.com/sample/youtube\_layout\_practice.zip)
 
 
 
