@@ -57,11 +57,11 @@ btn_hamburger_el.addEventListener("click", function(){
 
 
 
-以下提供 JavaScript 的展開縮合做法：
-
-{% embed url="https://codepen.io/carlos411/pen/VwrMMjO" %}
 
 
+漸進式的展開縮合，因為會用到 JS，單靠 CSS 無法做到，故同學學完 JS 之後，可再來研究：
+
+{% embed url="https://codepen.io/carlos411/pen/Poxrypd" %}
 
 
 
