@@ -18,15 +18,6 @@
 
 
 
-切換 class (使用 jQuery)：
-
-```javascript
-// 按鈕狀態的切換
-$("button.hamburger_icon").on("click", function(){
-  $(this).toggleClass("-on");
-});
-```
-
 切換 class (使用 JavaScript)：
 
 ```javascript
