@@ -73,7 +73,7 @@ btn_switch.addEventListener("click", function(){
 
 
 
-## 3 內容圖片佔滿版
+## 3 內容圖片佔滿版及寬高比
 
 提供 HTML 如下：
 
@@ -85,6 +85,17 @@ btn_switch.addEventListener("click", function(){
 
 * 當螢幕寬度小於等於 `767.98px` 以下時，`圖片`要在 `div.img_block` 區塊水平方向、垂直方向皆置中；且 `div.img_block` 需佔螢幕的滿版，且寬高比需是 `2:1`。
 * 請參考下方 CodePen 的畫面結果，實作看看。
+
+
+
+使用 **`aspect-ratio`** 來做一個元素的寬高比，例如寬高比 **`2:1`** ：
+
+```css
+div.block{
+  width: 150px;
+  aspect-ratio: 2 / 1; /* height 就會是 75px */
+}
+```
 
 
 
