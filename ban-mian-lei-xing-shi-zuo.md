@@ -6,9 +6,9 @@
 
 第一步：[https://youtu.be/\_WbrNB61JZ0](https://youtu.be/\_WbrNB61JZ0)
 
-header 區域的高：60px。
+假設 header 區域的高：60px。
 
-側邊欄區域的寬：240px。
+假設 aside(側邊欄) 區域的寬：240px。
 
 {% embed url="https://youtu.be/_WbrNB61JZ0" %}
 
