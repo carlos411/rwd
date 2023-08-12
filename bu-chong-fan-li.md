@@ -63,25 +63,9 @@ btn_hamburger_el.addEventListener("click", function(){
 
 
 
-## 3 導覽列開啟，不推開底下內容
-
-直接使用這個 CodePen，也可建立新的網頁檔來寫：
-
-{% embed url="https://codepen.io/carlos411/pen/gOoVjJa?editors=1010" %}
-
-撰寫 CSS，完成以下參考作法的結果。
 
 
-
-
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/NWXQBeb" %}
-
-
-
-## 4 使用 Flexbox 做版位佈局
+## 3 使用 Flexbox 做版位佈局
 
 提供 HTML 如下：
 
@@ -110,7 +94,7 @@ btn_hamburger_el.addEventListener("click", function(){
 
 
 
-## 5 內容圖片佔滿版
+## 4 內容圖片佔滿版
 
 提供 HTML 如下：
 
@@ -135,7 +119,7 @@ btn_hamburger_el.addEventListener("click", function(){
 
 
 
-## 6 有 10 個項目的排版
+## 5 有 10 個項目的排版
 
 提供 html 如下：
 
@@ -214,7 +198,7 @@ btn_hamburger_el.addEventListener("click", function(){
 
 
 
-## 7 Youtube iframe 影片 RWD
+## 6 Youtube iframe 影片 RWD
 
 提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
