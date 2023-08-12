@@ -83,18 +83,14 @@ btn_switch.addEventListener("click", function(){
 </div>
 ```
 
-* 當螢幕寬度小於等於 `767.98px` 以下時，`圖片`要在 `div.img_block` 區塊水平方向、垂直方向皆置中；且 `div.img_block` 需佔滿螢幕，且寬高比需是 `2:1`。
+* 當螢幕寬度小於等於 `767.98px` 以下時，`圖片`要在 `div.img_block` 區塊水平方向、垂直方向皆置中；且 `div.img_block` 需佔螢幕的滿版，且寬高比需是 `2:1`。
 * 請參考下方 CodePen 的畫面結果，實作看看。
-
-
 
 
 
 參考作法：
 
 {% embed url="https://codepen.io/carlos411/pen/JjjELmR" %}
-
-
 
 
 
