@@ -1,14 +1,6 @@
 # 6 練習
 
-以下若有用到 jQuery，可直接載入下面這行 jQuery：(放在 body 結束標籤之前)
-
-```markup
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-```
-
-## 練習
-
-### 1 介面 hamburger icon
+## 1 介面 hamburger icon
 
 用 button 標籤做一個 hamburger icon。
 
@@ -57,7 +49,7 @@ hamburger_icon.addEventListener("click", function(){
 
 
 
-### 2 套用 hamburger icon 的外掛
+## 2 套用 hamburger icon 的外掛
 
 [套件官網](https://jonsuh.com/hamburgers/)。
 
@@ -94,7 +86,7 @@ $("button.hamburger").on("click", function(){
 
 
 
-### 3 導覽列縮合
+## 3 導覽列縮合
 
 指定檔名：`nav_switch.html`
 
@@ -139,7 +131,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 4 導覽列開啟，不推開底下內容
+## 4 導覽列開啟，不推開底下內容
 
 直接使用這個 CodePen，也可建立新的網頁檔來寫：
 
@@ -157,7 +149,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 5 使用 Flexbox 做版位佈局
+## 5 使用 Flexbox 做版位佈局
 
 提供 HTML 如下：
 
@@ -186,7 +178,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 6 內容圖片佔滿版
+## 6 內容圖片佔滿版
 
 提供 HTML 如下：
 
@@ -211,7 +203,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 7 有 10 個項目的排版
+## 7 有 10 個項目的排版
 
 提供 html 如下：
 
@@ -294,7 +286,7 @@ $("button.btn_switch").on("click", function(){
 
 
 
-### 8 圓角與內距，相對於文字大小
+## 8 圓角與內距，相對於文字大小
 
 提供 html：
 
@@ -348,7 +340,7 @@ text-shadow: 0 1px 0px #ccc;
 
 
 
-### 9 左側區塊的縮合
+## 9 左側區塊的縮合
 
 提供 html：
 
@@ -404,7 +396,7 @@ $("button.btn_toggle").on("click", function(){
 
 
 
-### 10 Youtube iframe 影片 RWD
+## 10 Youtube iframe 影片 RWD
 
 提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
@@ -424,7 +416,7 @@ $("button.btn_toggle").on("click", function(){
 
 
 
-### 11 聊天對話框的展開縮合
+## 11 聊天對話框的展開縮合
 
 提供 html：
 
