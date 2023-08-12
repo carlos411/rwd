@@ -75,6 +75,8 @@ btn_switch.addEventListener("click", function(){
 
 ## 3 內容圖片佔滿版及寬高比
 
+檔名建議：`aspect_ratio.html`
+
 提供 HTML 如下：
 
 ```markup
@@ -105,7 +107,9 @@ div.block{
 
 
 
-## 4 有 10 個項目的排版
+## 4 行動版呈現左右滑動
+
+檔名建議：`mobile_slide.html`
 
 提供 html 如下：
 
