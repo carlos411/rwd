@@ -73,36 +73,7 @@ btn_switch.addEventListener("click", function(){
 
 
 
-## 3 使用 Flexbox 做版位佈局
-
-提供 HTML 如下：
-
-```markup
-<div class="all_container">
-  <div>
-    左側<br>
-    另一行
-  </div>
-  <div>
-    中間
-  </div>
-  <div>
-    右側
-  </div>
-</div>
-```
-
-請直接參考下方 CodePen 的畫面結果，實作看看。
-
-
-
-參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/MWWJQvQ" %}
-
-
-
-## 4 內容圖片佔滿版
+## 3 內容圖片佔滿版
 
 提供 HTML 如下：
 
@@ -127,7 +98,7 @@ btn_switch.addEventListener("click", function(){
 
 
 
-## 5 有 10 個項目的排版
+## 4 有 10 個項目的排版
 
 提供 html 如下：
 
@@ -206,7 +177,7 @@ btn_switch.addEventListener("click", function(){
 
 
 
-## 6 Youtube iframe 影片 RWD
+## 5 Youtube iframe 影片 RWD
 
 提供以下 iframe 影片，它的寬高比為 `560:315`，也就是 `16:9`。
 
