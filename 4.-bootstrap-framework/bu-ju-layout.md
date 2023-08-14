@@ -1,8 +1,8 @@
-# 4.3 佈局 Layout
+# 5.2 佈局 Layout
 
 ## 格線系統(v5)
 
-[https://getbootstrap.com/docs/5.1/layout/grid/](https://getbootstrap.com/docs/5.1/layout/grid/)
+[https://getbootstrap.com/docs/5.3/layout/grid/#grid-options](https://getbootstrap.com/docs/5.3/layout/grid/#grid-options)
 
 ![圖一：Bootstrap V5 的格線系統](../.gitbook/assets/bootstrap5\_grid\_layout.png)
 
