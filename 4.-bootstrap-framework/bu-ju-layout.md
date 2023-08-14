@@ -186,31 +186,3 @@ sm 範圍以上三欄均分
 * `.row` 可以運用在任何地方，不一定要放在 `.container` 或 `.container-fluid` 裡面。
 * 如果是 v5 的版本，包住 div.row 的父層 div，設定 `padding-left: .75rem`、`padding-right: .75rem` 即可。
 
-{% hint style="info" %}
-如果是 v4，包住 div.row 的父層 div，設定 `padding-left: 15px`、`padding-right: 15px` 即可。
-{% endhint %}
-
-
-
-## Grid 練習
-
-暫時性的假圖：
-
-[https://via.placeholder.com/300x200](https://via.placeholder.com/300x200)
-
-
-
-請使用格線系統，完成以下佈局：
-
-![](../.gitbook/assets/grid\_prac.png)
-
-可直接開啟這個 CodePen， fork 一份，就可開始寫：[https://codepen.io/carlos411/pen/vYpPRwe](https://codepen.io/carlos411/pen/vYpPRwe?editors=1100)
-
-
-
-
-
-完成示意，參考作法：
-
-{% embed url="https://codepen.io/carlos411/pen/gOOwzKp" %}
-
