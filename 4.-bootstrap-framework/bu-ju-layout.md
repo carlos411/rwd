@@ -1,6 +1,6 @@
 # 5.2 佈局 Layout
 
-## 格線系統(v5)
+## 網格系統(v5)
 
 [https://getbootstrap.com/docs/5.3/layout/grid/#grid-options](https://getbootstrap.com/docs/5.3/layout/grid/#grid-options)
 
@@ -16,33 +16,19 @@
 
 
 
-## 瞭解樣式 container 和 container-fluid
+## container 與 container-fluid
 
-### container
+如下示意圖：
 
-div 元素加上 container 樣式：
-
-```markup
-<div class="container">
-</div>
-```
-
-這時的 `div.container`，寬度就會如圖一的 `Container` 來做變化(`max-width` 屬性)。
-
-例：`螢幕寬度 >= 1200px` 時，`div.container` 的最大寬度(`max-width`)就是 `1140px`；`螢幕寬度 >= 1400px` 時，`div.container` 的最大寬度(`max-width`)就是 `1320px`。
+<figure><img src="../.gitbook/assets/bootstrap_container.png" alt=""><figcaption></figcaption></figure>
 
 
 
-### container-fluid
+## 列、欄與 container
 
-div 元素加上 container-fluid 樣式：
-
-```markup
-<div class="container-fluid">
-</div>
-```
-
-這時的 `div.container-fluid`，寬度就是 100%。
+* 將 **`列`** 寫在 container 中。
+* 將 **`欄`** 寫在 列中。
+* 每一列共有視覺上看不到的 12 欄可做劃分。
 
 
 
