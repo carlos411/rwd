@@ -32,9 +32,23 @@
 
 
 
-## 範例 1：不論任何範圍，各欄寬度自動均分
+## 欄自動排版
+
+
+
+### 範例 1：不論任何範圍，各欄寬度自動均分
 
 {% embed url="https://codepen.io/carlos411/pen/wVKJMR" %}
+
+
+
+### 範例 2：不論任何範圍，設定某欄佔幾欄
+
+{% embed url="https://codepen.io/carlos411/pen/GVpMwo" %}
+
+
+
+
 
 
 
@@ -64,13 +78,7 @@ sm 範圍以上三欄均分
 
 
 
-## 範例 4：不論任何範圍，設定某欄佔幾欄
 
-{% embed url="https://codepen.io/carlos411/pen/GVpMwo" %}
-設定某欄佔幾欄
-{% endembed %}
-
-試著改變所佔的欄數，例如將 `col-5` 改成 `col-8`。(改成佔8欄)
 
 ## 範例 5：指定特定範圍，由內容決定欄寬
 
