@@ -77,7 +77,7 @@
 
 語法：**`offset-{breakpoint}-{number}`**
 
-在某個 {breakpoint} 範圍以上，位移 {number} 欄。例：
+在某個 `{breakpoint}` 範圍以上，位移 `{number}` 欄。例：
 
 {% embed url="https://codepen.io/carlos411/pen/VoaKRy" %}
 
@@ -87,7 +87,7 @@
 
 語法：**`order-{breakpoint}-{number}`**
 
-在某個 {breakpoint} 範圍以下，{number} 數值較小的先出現。例：
+在某個 `{breakpoint}` 範圍以下，`{number}` 數值較小的先出現。例：
 
 {% embed url="https://codepen.io/carlos411/pen/LYVpQZZ" %}
 
