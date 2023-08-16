@@ -32,6 +32,12 @@
 
 
 
+## 範例 1：不論任何範圍，各欄寬度自動均分
+
+{% embed url="https://codepen.io/carlos411/pen/wVKJMR" %}
+
+
+
 ## 範例 1：指定 sm 範圍以上三欄均分
 
 {% embed url="https://codepen.io/carlos411/pen/XvmmPJ" %}
@@ -57,14 +63,6 @@ sm 範圍以上三欄均分
 {% embed url="https://codepen.io/carlos411/pen/xxpBWOK" %}
 
 
-
-## 範例 3：不論任何範圍，各欄寬度自動均分
-
-{% embed url="https://codepen.io/carlos411/pen/wVKJMR" %}
-各欄寬度自動均分及使用 w-100 來斷行
-{% endembed %}
-
-也試著將 `container` 改成 `container-fluid` 並觀察。
 
 ## 範例 4：不論任何範圍，設定某欄佔幾欄
 
