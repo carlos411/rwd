@@ -4,7 +4,7 @@
 
 [https://getbootstrap.com/docs/5.3/layout/grid/#grid-options](https://getbootstrap.com/docs/5.3/layout/grid/#grid-options)
 
-![圖一：Bootstrap V5 的格線系統](../.gitbook/assets/bootstrap5\_grid\_layout.png)
+<figure><img src="../.gitbook/assets/bootstrap_grid_hint.png" alt=""><figcaption></figcaption></figure>
 
 記得以下這幾個版面的分界點：
 
