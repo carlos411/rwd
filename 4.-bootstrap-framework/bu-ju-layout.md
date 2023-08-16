@@ -55,16 +55,12 @@
 ### 範例 1：指定 sm 範圍以上三欄均分
 
 {% embed url="https://codepen.io/carlos411/pen/XvmmPJ" %}
-sm 範圍以上三欄均分
-{% endembed %}
 
 
 
 ### 範例 2：指定 md 範圍以上，均分或設定所佔的欄數
 
 {% embed url="https://codepen.io/carlos411/pen/QeybgK" %}
-分界點練習，sm 範圍以上
-{% endembed %}
 
 
 
