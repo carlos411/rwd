@@ -71,6 +71,16 @@
 
 
 
+## 其它
+
+### 範例 1：欄的位移
+
+語法：**`offset-{breakpoint}-{number}`**
+
+{% embed url="https://codepen.io/carlos411/pen/VoaKRy" %}
+
+
+
 ## 範例 2：欄的順序
 
 在「欄」的地方，加上 `order-*`，指定順序，這是 flexbox 裡的 order 屬性。
@@ -90,14 +100,6 @@
 
 
 
-
-
-
-## 範例 12：欄的位移
-
-語法：offset-{breakpoint}-{number}
-
-{% embed url="https://codepen.io/carlos411/pen/VoaKRy" %}
 
 
 
