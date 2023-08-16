@@ -80,14 +80,6 @@ sm 範圍以上三欄均分
 
 
 
-## 範例 5：指定特定範圍，由內容決定欄寬
-
-透過 `col-{breakpoint}-auto` 可以將該欄設定成：寬度由內容決定。
-
-{% embed url="https://codepen.io/carlos411/pen/MNaEdX" %}
-內容決定欄寬
-{% endembed %}
-
 ## 範例 6：分界點練習 - 所有範圍
 
 {% embed url="https://codepen.io/carlos411/pen/PMZqPr" %}
