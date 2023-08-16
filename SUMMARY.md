@@ -21,6 +21,7 @@
   * [6.2 transition-property](6-transition-zhuan-chang-xiao-guo/6.2-transition-property.md)
   * [6.3 transition-duration](6-transition-zhuan-chang-xiao-guo/6.3-transition-duration.md)
   * [6.4 transition-timing-function](6-transition-zhuan-chang-xiao-guo/6.4-transition-timing-function.md)
+  * [6.5 transition-delay](6-transition-zhuan-chang-xiao-guo/6.5-transition-delay.md)
 * [7 Animation 動畫效果](7-animation-dong-hua-xiao-guo.md)
 * [8 Bootstrap Grid System](4.-bootstrap-framework/README.md)
   * [8.1 載入 Grid 相關 CSS](4.-bootstrap-framework/4.9-jin-zai-ru-grid-xiang-guan-css.md)
