@@ -109,7 +109,23 @@
 
 {% embed url="https://codepen.io/carlos411/pen/zYYBoxV" %}
 
-將 Bootstrap 的 row(有負邊界) 用在其它 div(需要加上左右 padding)：
+因為 Bootstrap 的 row(有負邊界)，分別是：
+
+```css
+div.row{
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+```
+
+所以當 row 放在其它自己的 div 標籤時，該 div 標籤記得加以下兩行的 css：
+
+```css
+padding-left: 0.75rem;
+padding-right: 0.75rem;
+```
+
+例：
 
 {% embed url="https://codepen.io/carlos411/pen/YzzPydQ" %}
 
