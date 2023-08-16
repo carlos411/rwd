@@ -104,49 +104,6 @@ sm 範圍以上三欄均分
 
 
 
-## 範例 9：垂直方向對齊方式 1
-
-在「列」中，加上以下樣式：
-
-* align-items-start
-* align-items-center
-* align-items-end
-
-{% embed url="https://codepen.io/carlos411/pen/mNPrVw" %}
-垂直方向對齊方式1
-{% endembed %}
-
-
-
-## 範例 10：垂直方向對齊方式 2
-
-在「欄」中，加上以下樣式：
-
-* align-self-start
-* align-self-center
-* align-self-end
-
-{% embed url="https://codepen.io/carlos411/pen/rXeMwN" %}
-垂直方向對齊方式2
-{% endembed %}
-
-
-
-## 範例 11：水平方向對齊方式
-
-在「列」中放入以下樣式：
-
-* justify-content-start
-* justify-content-center
-* justify-content-end
-* justify-content-around
-* justify-content-between
-* justify-content-evenly
-
-{% embed url="https://codepen.io/carlos411/pen/NQNRYe" %}
-
-瞭解水平對齊方式。
-
 
 
 ## 範例 12：欄的位移
