@@ -64,7 +64,7 @@
 
 
 
-### 範例 3：分界點練習 - 同時設定所有範圍及 md 範圍以上
+### 範例 3：多個斷點一起使用
 
 {% embed url="https://codepen.io/carlos411/pen/EqPjoR" %}
 
