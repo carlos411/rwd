@@ -95,9 +95,9 @@
 
 
 
-## 範例 13：巢狀式
+### 範例 3：巢狀式
 
-在 column 裡面的部份，也可以再放 row 來切 12 欄。
+在 `column` 裡面的部份，也可以再放 `row` 來切 12 欄。例：
 
 {% embed url="https://codepen.io/carlos411/pen/xxGVMjK" %}
 
