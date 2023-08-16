@@ -52,11 +52,25 @@
 
 
 
-## 範例 1：指定 sm 範圍以上三欄均分
+### 範例 1：指定 sm 範圍以上三欄均分
 
 {% embed url="https://codepen.io/carlos411/pen/XvmmPJ" %}
 sm 範圍以上三欄均分
 {% endembed %}
+
+
+
+### 範例 2：分界點練習 - sm 範圍以上
+
+{% embed url="https://codepen.io/carlos411/pen/QeybgK" %}
+分界點練習，sm 範圍以上
+{% endembed %}
+
+
+
+### 範例 3：分界點練習 - 同時設定所有範圍及 md 範圍以上
+
+{% embed url="https://codepen.io/carlos411/pen/EqPjoR" %}
 
 
 
@@ -77,22 +91,6 @@ sm 範圍以上三欄均分
 {% embed url="https://codepen.io/carlos411/pen/xxpBWOK" %}
 
 
-
-
-
-## 範例 7：分界點練習 - sm 範圍以上
-
-{% embed url="https://codepen.io/carlos411/pen/QeybgK" %}
-分界點練習，sm 範圍以上
-{% endembed %}
-
-
-
-## 範例 8：分界點練習 - 同時設定所有範圍及 md 範圍以上
-
-{% embed url="https://codepen.io/carlos411/pen/EqPjoR" %}
-分界點練習，多個範圍一起使用&#x20;
-{% endembed %}
 
 
 
