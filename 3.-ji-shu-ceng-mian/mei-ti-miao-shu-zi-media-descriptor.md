@@ -131,36 +131,6 @@ orientation 可以設定當手持裝置是橫向或縱向時，需要套用的 C
 
 
 
-## 範例 7：prefers-color-scheme 深色模式
-
-可以設定 light 或 dark，來決定當使用者是在哪種模式時，要套用的CSS。
-
-淺色模式(Light Mode)：
-
-```css
-@media screen and (prefers-color-scheme: light) {
-  :root {
-    --foreground: black;
-    --background: white;
-  }
-}
-```
-
-深色模式(Dark Mode)：
-
-```css
-@media screen and (prefers-color-scheme: dark) {
-  :root {
-    --foreground: white;
-    --background: black;
-  }
-}
-```
-
-範例：
-
-{% embed url="https://codepen.io/carlos411/pen/oNYgxpm" %}
-
 
 
 ## 練習：依螢幕寬度區隔，設定某區塊的 Media Query
