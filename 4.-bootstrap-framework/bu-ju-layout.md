@@ -103,7 +103,7 @@
 
 
 
-## 範例 14：將 row 用在其它 div
+### 範例 4：將 row 用在其它 div
 
 關於左右 margin 負邊界(未指定寬度的情況下，左右的 margin 為負值時，會創造出額外空間)：
 
@@ -112,13 +112,4 @@
 將 Bootstrap 的 row(有負邊界) 用在其它 div(需要加上左右 padding)：
 
 {% embed url="https://codepen.io/carlos411/pen/YzzPydQ" %}
-
-(註：[var() 函式預設值的寫法](https://codepen.io/carlos411/pen/oNZzgZp))
-
-
-
-結論：
-
-* `.row` 可以運用在任何地方，不一定要放在 `.container` 或 `.container-fluid` 裡面。
-* 如果是 v5 的版本，包住 div.row 的父層 div，設定 `padding-left: .75rem`、`padding-right: .75rem` 即可。
 
