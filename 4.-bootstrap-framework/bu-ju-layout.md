@@ -80,14 +80,6 @@ sm 範圍以上三欄均分
 
 
 
-## 範例 6：分界點練習 - 所有範圍
-
-{% embed url="https://codepen.io/carlos411/pen/PMZqPr" %}
-分界點練習，所有圍範
-{% endembed %}
-
-
-
 ## 範例 7：分界點練習 - sm 範圍以上
 
 {% embed url="https://codepen.io/carlos411/pen/QeybgK" %}
