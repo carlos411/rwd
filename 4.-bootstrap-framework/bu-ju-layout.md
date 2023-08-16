@@ -77,27 +77,19 @@
 
 語法：**`offset-{breakpoint}-{number}`**
 
+在某個 {breakpoint} 範圍以上，位移 {number} 欄。例：
+
 {% embed url="https://codepen.io/carlos411/pen/VoaKRy" %}
 
 
 
-## 範例 2：欄的順序
+### 範例 2：欄的順序
 
-在「欄」的地方，加上 `order-*`，指定順序，這是 flexbox 裡的 order 屬性。
+語法：**`order-{breakpoint}-{number}`**
 
-也可以設定 `order-{breakpoint}-*`，指定順序。
-
-例：
+在某個 {breakpoint} 範圍以下，{number} 數值較小的先出現。例：
 
 {% embed url="https://codepen.io/carlos411/pen/LYVpQZZ" %}
-
-
-
-練習：設定螢幕寬度在**小於等於 575.98px** 時，出現的順序由上至下為「**第三欄、第二欄、第一欄**」：
-
-{% embed url="https://codepen.io/carlos411/pen/xxpBWOK" %}
-
-
 
 
 
