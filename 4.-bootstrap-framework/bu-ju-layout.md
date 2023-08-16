@@ -1,6 +1,6 @@
-# 5.2 佈局 Layout
+# 5.2 Grid System
 
-## 網格系統(v5)
+## 網格(Grid)系統(v5 版本)
 
 [https://getbootstrap.com/docs/5.3/layout/grid/#grid-options](https://getbootstrap.com/docs/5.3/layout/grid/#grid-options)
 

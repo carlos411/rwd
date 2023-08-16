@@ -13,7 +13,7 @@
   * [4.2 HTML Viewport Meta](3.-ji-shu-ceng-mian/viewport/html-viewport-zhong-jie-zi-liao.md)
 * [5 Bootstrap Grid System](4.-bootstrap-framework/README.md)
   * [5.1 載入 Grid 相關 CSS](4.-bootstrap-framework/4.9-jin-zai-ru-grid-xiang-guan-css.md)
-  * [5.2 佈局 Layout](4.-bootstrap-framework/bu-ju-layout.md)
+  * [5.2 Grid System](4.-bootstrap-framework/bu-ju-layout.md)
 * [6 練習](bu-chong-fan-li.md)
 * [7 RWD 作業](ban-mian-lei-xing-shi-zuo.md)
 * [8 手機連本機端網站](shi-fan-ngrok.md)
