@@ -25,7 +25,7 @@
   * [6.6 transition 簡寫](6-transition-zhuan-chang-xiao-guo/6.6-transition-jian-xie.md)
   * [6.7 練習](6-transition-zhuan-chang-xiao-guo/6.7-lian-xi.md)
 * [7 Animation 動畫效果](7-animation-dong-hua-xiao-guo/README.md)
-  * [第一個 animation](7-animation-dong-hua-xiao-guo/di-yi-ge-animation.md)
+  * [7.1 第一個 animation](7-animation-dong-hua-xiao-guo/7.1-di-yi-ge-animation.md)
 * [8 Bootstrap Grid System](4.-bootstrap-framework/README.md)
   * [8.1 載入 Grid 相關 CSS](4.-bootstrap-framework/4.9-jin-zai-ru-grid-xiang-guan-css.md)
   * [8.2 Grid System](4.-bootstrap-framework/bu-ju-layout.md)
