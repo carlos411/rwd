@@ -35,6 +35,7 @@
   * [7.8 animation-play-state](7-animation-dong-hua-xiao-guo/7.8-animation-play-state.md)
   * [7.9 animation-timing-function](7-animation-dong-hua-xiao-guo/7.9-animation-timing-function.md)
   * [7.10 animation 簡寫](7-animation-dong-hua-xiao-guo/7.10-animation-jian-xie.md)
+  * [7.11 練習](7-animation-dong-hua-xiao-guo/7.11-lian-xi.md)
 * [8 Bootstrap Grid System](4.-bootstrap-framework/README.md)
   * [8.1 載入 Grid 相關 CSS](4.-bootstrap-framework/4.9-jin-zai-ru-grid-xiang-guan-css.md)
   * [8.2 Grid System](4.-bootstrap-framework/bu-ju-layout.md)
