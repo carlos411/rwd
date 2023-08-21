@@ -28,6 +28,7 @@
   * [7.1 第一個 animation](7-animation-dong-hua-xiao-guo/7.1-di-yi-ge-animation.md)
   * [7.2 關於 keyframes](7-animation-dong-hua-xiao-guo/7.2-guan-yu-keyframes.md)
   * [7.3 相同元素套用多個 animation](7-animation-dong-hua-xiao-guo/7.3-xiang-tong-yuan-su-tao-yong-duo-ge-animation.md)
+  * [7.4 animation-iteration-count](7-animation-dong-hua-xiao-guo/7.4-animation-iteration-count.md)
 * [8 Bootstrap Grid System](4.-bootstrap-framework/README.md)
   * [8.1 載入 Grid 相關 CSS](4.-bootstrap-framework/4.9-jin-zai-ru-grid-xiang-guan-css.md)
   * [8.2 Grid System](4.-bootstrap-framework/bu-ju-layout.md)
