@@ -39,19 +39,19 @@
 
 
 
-## 技術堆疊
-
-前端：HTML、CSS(SASS)、JavaScript(jQuery、Vue、Vite)、TypeScript。
-
-後端：PHP、Node.js(Express)、MySQL、MariaDB、MongoDB、CentOS。
-
-版本控管：Git。
-
-
-
 
 
 ## 作品分享(部份)
+
+### 有 RWD
+
+* 長風文教基金會( 手機瀏覽看看：[http://fairwindsfoundation.org/](http://fairwindsfoundation.org/) )
+
+### 沒有 RWD
+
+* [台灣雕塑學會](http://www.sculpture.org.tw/) ( 手機瀏覽：[http://www.sculpture.org.tw/](http://www.sculpture.org.tw/) )
+
+
 
 ### 網站前端
 
