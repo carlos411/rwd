@@ -8,6 +8,7 @@
 * [3 Media Query](3.-ji-shu-ceng-mian/README.md)
   * [3.1 媒體類型 Media Type](3.-ji-shu-ceng-mian/mei-ti-lei-xing-media-type.md)
   * [3.2 媒體描述 Media Features](3.-ji-shu-ceng-mian/mei-ti-miao-shu-zi-media-descriptor.md)
+  * [3.3 練習](3.-ji-shu-ceng-mian/3.3-lian-xi.md)
 * [4 Viewport](3.-ji-shu-ceng-mian/viewport/README.md)
   * [4.1 Viewport 定義](3.-ji-shu-ceng-mian/viewport/viewport-ding-yi.md)
   * [4.2 HTML Viewport Meta](3.-ji-shu-ceng-mian/viewport/html-viewport-zhong-jie-zi-liao.md)
