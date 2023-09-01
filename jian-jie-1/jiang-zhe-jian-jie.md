@@ -23,7 +23,7 @@
 * [AI助理GitHub Copilot | 提升前端開發效率](https://www.tibame.com/course/4359?utm\_source=teacher\&utm\_medium=recommend\&utm\_campaign=pur\_ma\_teacherfriend\_20230621)
 * [成為前端工程師｜透過 HTML 與 CSS 認識網頁設計，從 0 到 1 打造實用介面 (上集)](https://www.tibame.com/course/1821)
 * [成為前端工程師｜透過 HTML 與 CSS 認識網頁設計，從 0 到 1 打造實用介面 (下集)](https://www.tibame.com/course/2075)
-* 學會程式助手 GitHub Copilot，撰寫速度快一倍，讓你成為一打十的開發高手
+* [學會程式助手 GitHub Copilot，撰寫速度快一倍，讓你成為一打十的開發高手](https://www.cite.tw/producers/tkbang/courses/570?variant\_id=1044)
 
 
 
